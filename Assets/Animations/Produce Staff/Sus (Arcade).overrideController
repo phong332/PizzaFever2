@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sus (Arcade)
+  m_Controller: {fileID: 9100000, guid: dc362a5d9740825459111acded38f394, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 1827226128182048838, guid: 9e92824989428004c8957189de3d80a8,
+      type: 3}
+    m_OverrideClip: {fileID: 5792805459621763605, guid: 8bdbaab8d7218a6428f87228f54ab0b0,
+      type: 3}
+  - m_OriginalClip: {fileID: 1827226128182048838, guid: e63db02f7eba998419f1a88588b3748a,
+      type: 3}
+    m_OverrideClip: {fileID: -8771560665082052092, guid: 5e24d1617c6346e4f8fc90a9d2ce8243,
+      type: 3}
+  - m_OriginalClip: {fileID: 1827226128182048838, guid: e7b90117aa0d59f49b1cdb305457fb33,
+      type: 3}
+    m_OverrideClip: {fileID: 1481179803681022016, guid: 71406ad8550707540b77fee101020e85,
+      type: 3}
+  - m_OriginalClip: {fileID: 1827226128182048838, guid: 72dc245925e68464fb020ff65db6ac3c,
+      type: 3}
+    m_OverrideClip: {fileID: 1481179803681022016, guid: 71406ad8550707540b77fee101020e85,
+      type: 3}
+  - m_OriginalClip: {fileID: 1827226128182048838, guid: 8116825234bbc2d4d9d8f7669549b678,
+      type: 3}
+    m_OverrideClip: {fileID: 1481179803681022016, guid: 71406ad8550707540b77fee101020e85,
+      type: 3}
+  - m_OriginalClip: {fileID: -4799524434163024911, guid: 29edbaa353e48ca458c41509356216b9,
+      type: 3}
+    m_OverrideClip: {fileID: 207328164280415731, guid: ce6470b5388fecc4fb40977e853e4064,
+      type: 3}
+  - m_OriginalClip: {fileID: 1827226128182048838, guid: dec7d8964b971ef4daba5a2d0a706898,
+      type: 3}
+    m_OverrideClip: {fileID: -2668200268986972941, guid: 332c3e54422420047a5d64399bdf6a1c,
+      type: 3}

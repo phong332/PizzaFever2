@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sus (Drink)
+  m_Controller: {fileID: 9100000, guid: 32058a19407c0c842b073f2237ca695f, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 1827226128182048838, guid: 9e92824989428004c8957189de3d80a8,
+      type: 3}
+    m_OverrideClip: {fileID: 5792805459621763605, guid: 8bdbaab8d7218a6428f87228f54ab0b0,
+      type: 3}
+  - m_OriginalClip: {fileID: 1827226128182048838, guid: dec7d8964b971ef4daba5a2d0a706898,
+      type: 3}
+    m_OverrideClip: {fileID: -2668200268986972941, guid: 332c3e54422420047a5d64399bdf6a1c,
+      type: 3}
+  - m_OriginalClip: {fileID: 1827226128182048838, guid: cedc15e43f5d1b1469d461df29cf7b45,
+      type: 3}
+    m_OverrideClip: {fileID: 8640899333512705714, guid: 1d9dd43d67844ce46a144043a6df2ad3,
+      type: 3}
+  - m_OriginalClip: {fileID: 1827226128182048838, guid: 713964ac5dcc6ab4b9f703c886dd93d7,
+      type: 3}
+    m_OverrideClip: {fileID: -8570587600646799321, guid: ff0ec561c71f31a4183f8be8b0d41975,
+      type: 3}

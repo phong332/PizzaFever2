@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Customer (Bendy)
+  m_Controller: {fileID: 9100000, guid: a0d1f7aeadaae6b4c9fd6c2a7a721f7d, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 1827226128182048838, guid: 96e4a052cf9c2294ea6fd3dcbdcbcb59,
+      type: 3}
+    m_OverrideClip: {fileID: -5661384656535290758, guid: 909399addbd956942a9c7b07eb48a6a7,
+      type: 3}
+  - m_OriginalClip: {fileID: 1827226128182048838, guid: 9d538edc47661f041963bc90e735a979,
+      type: 3}
+    m_OverrideClip: {fileID: 2755562155166215801, guid: a8af1fba01016c0419dc0d535b74f1fc,
+      type: 3}
+  - m_OriginalClip: {fileID: 1827226128182048838, guid: 6f019bb105de2f0499e52c8ebe3185d1,
+      type: 3}
+    m_OverrideClip: {fileID: -7768268117831482601, guid: 88b659aede8841e4b90d535b18cda1b2,
+      type: 3}
+  - m_OriginalClip: {fileID: 1827226128182048838, guid: b7de321cdc5eba34c9551d4f2577361d,
+      type: 3}
+    m_OverrideClip: {fileID: -203655887218126122, guid: c67805ef57f877a439cd6e79177f2a72,
+      type: 3}
