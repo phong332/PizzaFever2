@@ -16,13 +16,13 @@
                 "**/Luna/RuntimeScripts/"
             ],
             "msbuildMac64": "/Library/Frameworks/Mono.framework/Versions/Current/bin/msbuild",
-            "msbuildWin64": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Current\\Bin\\MSBuild.exe",
+            "msbuildWin64": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\MSBuild.exe",
             "externalSources": [],
             "externalJSLibraries": [],
             "scriptingDefines": [],
-            "msbuildVersion": "16.11",
+            "msbuildVersion": "17.3",
             "monoVersion": "N/A",
-            "dotnetVersion": "5.0.411"
+            "dotnetVersion": "6.0.401"
         },
         "assets": {
             "export": [],
@@ -3009,7 +3009,7 @@
             },
             {
                 "name": "UnityEngine.ParticleSystemStopBehavior",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "UnityEngine.PersistentListenerMode",
@@ -4692,10 +4692,6 @@
                 "excluded": false
             },
             {
-                "name": "AutoDestroy",
-                "excluded": true
-            },
-            {
                 "name": "AutoDestructor",
                 "excluded": true
             },
@@ -4825,7 +4821,7 @@
             },
             {
                 "name": "TypeDestroy",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "UltimateJoystick.Anchor",
@@ -20888,12 +20884,8 @@
                         "excluded": false
                     },
                     {
-                        "name": "IEReleaseBrick",
-                        "excluded": false
-                    },
-                    {
                         "name": "OnTriggerStay",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "GetPizzaAgain",
@@ -20905,7 +20897,15 @@
                     },
                     {
                         "name": "OnTriggerExit",
-                        "excluded": true
+                        "excluded": false
+                    },
+                    {
+                        "name": "IEReleasePizza",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnCollisionExit",
+                        "excluded": false
                     }
                 ]
             },
@@ -21943,7 +21943,7 @@
                     },
                     {
                         "name": "ResizeInternalArray",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ResizeInternalArray$1",
@@ -26680,6 +26680,10 @@
                     {
                         "name": "PlaySoundUnlock",
                         "excluded": false
+                    },
+                    {
+                        "name": "PlaySoundGetPizza",
+                        "excluded": false
                     }
                 ]
             },
@@ -28642,8 +28646,8 @@
                         "excluded": false
                     },
                     {
-                        "name": "SetAnim",
-                        "excluded": true
+                        "name": "Eating",
+                        "excluded": false
                     }
                 ]
             },
@@ -28676,15 +28680,15 @@
                         "excluded": false
                     },
                     {
-                        "name": "Start",
+                        "name": "IsFullOfPizza",
                         "excluded": false
                     },
                     {
-                        "name": "GetFood",
-                        "excluded": true
+                        "name": "UpdateMessServe",
+                        "excluded": false
                     },
                     {
-                        "name": "IsFullOfPizza",
+                        "name": "OnTriggerEnter",
                         "excluded": false
                     }
                 ]
@@ -28703,11 +28707,11 @@
                     },
                     {
                         "name": "InstallFullGame",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ShowEndcard",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -29067,6 +29071,32 @@
                     },
                     {
                         "name": "ApplyTween",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "AutoDestroy",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnEnable",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Update",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnDestroy",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnDisable",
                         "excluded": false
                     }
                 ]

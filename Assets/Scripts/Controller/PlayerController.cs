@@ -12,10 +12,12 @@ public class PlayerController : MonoBehaviour
     bool firstStop;
     Vector3 vectorMovingDirection = Vector3.zero;
     float velAxisX, velAxisY;
-    bool isCarryPizza;
+    public bool isCarryPizza;
     public GameObject foodHolder;
     public GameObject foodHolderOnTable;
+    public GameObject canvasMess;
     TableRegion _table;
+    public bool canSetAnim = true;
     public void Init()
     {
     }
@@ -52,14 +54,20 @@ public class PlayerController : MonoBehaviour
 
         }
     }
+    bool firstTouch2;
     public void Move()
     {
         velAxisX = UltimateJoystick.GetHorizontalAxis(DefineHelper.JoyStick);
         velAxisY = UltimateJoystick.GetVerticalAxis(DefineHelper.JoyStick);
         if (Input.GetMouseButtonDown(0))
         {
-            GlobalInstance.Instance.gameManager.guide.SetActive(false);
-            GlobalInstance.Instance.gameManager.guideMachine.SetActive(true);
+            if (!firstTouch2)
+            {
+                firstTouch2 = true;
+                GlobalInstance.Instance.gameManager.guide.SetActive(false);
+                GlobalInstance.Instance.gameManager.guideMachine.SetActive(true);
+            }
+
             startTouch = true;
         }
         if (Input.GetMouseButton(0) && startTouch)
@@ -67,7 +75,6 @@ public class PlayerController : MonoBehaviour
             if ((velAxisX != 0) || (velAxisY != 0))
             {
                 vectorMovingDirection = new Vector3(velAxisX, 0, velAxisY).normalized;
-
                 RotateFacing(vectorMovingDirection);
                 canMove = true;
                 AnimRun();
@@ -100,6 +107,7 @@ public class PlayerController : MonoBehaviour
         yield return new WaitForSeconds(time);
         playSoundRun = true;
     }
+
     void RotateFacing(Vector3 directionFacing)
     {
         if (directionFacing == Vector3.zero)
@@ -116,10 +124,19 @@ public class PlayerController : MonoBehaviour
             if (!isCarryPizza)
             {
                 animator.SetBool("Walk", true);
-                animator.SetTrigger("Carry");
+                if (canSetAnim)
+                {
+                    canSetAnim = false;
+                    animator.SetTrigger("Idle");
+                }
+
             }
             else
-                animator.SetBool("Carry", true);
+            {
+                //  animator.SetBool("Walk", true);
+                animator.SetTrigger("RunCarry");
+
+            }
 
         }
     }
@@ -130,29 +147,33 @@ public class PlayerController : MonoBehaviour
             flagAnim1 = true;
             flagAnim2 = false;
             if (!isCarryPizza)
-                animator.SetBool("Walk", false);
+            {
+                {
+                    animator.SetBool("Walk", false);
+                }
+            }
             else
-                animator.SetBool("RunCarry", false);
+            {
+                animator.SetTrigger("Carry");
+                //  animator.SetTrigger("Idle");
+            }
 
         }
     }
     void GetPizza(GameObject pizza)
     {
+        canSetAnim = true;
+        SoundManager.Instance.PlaySoundGetPizza();
         isCarryPizza = true;
-        //brick.transform.localScale = Vector3.one * 800;
-        //brick.transform.localRotation = Quaternion.Euler(new Vector3(-90, 0, 90));
         pizza.transform.localPosition = Vector3.zero;
         pizza.transform.SetParent(foodHolder.transform);
         if (foodHolder.transform.childCount <= 1)
         {
             pizza.transform.localPosition = Vector3.zero;
-            //            pizza.transform.DOJump(foodHolder.transform.localPosition, 20, 1, 0.05f).SetEase(Ease.Linear);
-
         }
         else
         {
             pizza.transform.localPosition = Vector3.up * 0.2f + foodHolder.transform.GetChild(foodHolder.transform.childCount - 2).localPosition;
-            // pizza.transform.DOJump(Vector3.up * 0.05f * (foodHolder.transform.childCount - 2) + foodHolder.transform/*.GetChild(foodHolder.transform.childCount - 2)*/.localPosition, 20, 1, 0.05f).SetEase(Ease.Linear);
 
         }
 
@@ -172,32 +193,57 @@ public class PlayerController : MonoBehaviour
             canRelease = true;
             return;
         }
+        if (!isCarryPizza && GlobalInstance.Instance.gameManager.countToEndcard >= 6)
+        {
+            StartCoroutine(GlobalInstance.Instance.gameManager.ShowEndcard());
+            return;
+        }
         if (canRelease)
         {
-            StartCoroutine(IEReleaseBrick());
+
+            StartCoroutine(IEReleasePizza());
             canRelease = false;
         }
     }
-    IEnumerator IEReleaseBrick()
+    IEnumerator IEReleasePizza()
     {
         if (!_table)
         {
             canRelease = true;
             yield break;
         }
-        if (foodHolder.transform.childCount == 0 || _table.IsFullOfPizza())
+        if (foodHolder.transform.childCount == 0)
         {
-            canRelease = true;
+            animator.SetTrigger("Idle");
             isCarryPizza = false;
             yield break;
         }
+
+        if (_table.IsFullOfPizza())
+        {
+            canRelease = true;
+            yield break;
+        }
+        SoundManager.Instance.PlaySoundEnterRegion();
+        canvasMess.SetActive(false);
         var _pizza = (GameObject)foodHolder.transform.GetChild(foodHolder.transform.childCount - 1).gameObject;
         _pizza.transform.SetParent(foodHolderOnTable.transform);
-        _pizza.transform.DOJump(Vector3.up * 0.5f * foodHolderOnTable.transform.childCount + foodHolderOnTable.transform.position, 20, 1, 0.5f).SetEase(Ease.Linear);
+        _table.UpdateMessServe();
+        _pizza.transform.DOJump(Vector3.up * 0.5f * foodHolderOnTable.transform.childCount + foodHolderOnTable.transform.position, 10, 1, 0.5f).SetEase(Ease.Linear);
+        GlobalInstance.Instance.gameManager.countToEndcard += 1;
+
         yield return new WaitForSeconds(timeReleaseBrick);
         canRelease = true;
     }
+    private void OnCollisionExit(Collision collision)
+    {
+        if (collision.gameObject.tag == "Machine")
+        {
+            canvasMess.SetActive(false);
+        }
 
+
+    }
     private void OnTriggerExit(Collider other)
     {
         if (other.gameObject.tag == "Table")
@@ -209,8 +255,14 @@ public class PlayerController : MonoBehaviour
     {
         if (other.gameObject.tag == "Table")
         {
+            _table = other.gameObject.GetComponent<TableRegion>();
+            foodHolderOnTable = _table.foodHolder;
             ReleasePizza();
         }
+        //if (other.gameObject.tag == "Table")
+        //{
+        //    ReleasePizza();
+        //}
     }
     bool canGetPizza = true;
     IEnumerator GetPizzaAgain()
@@ -218,10 +270,32 @@ public class PlayerController : MonoBehaviour
         yield return new WaitForSeconds(0.02f);
         canGetPizza = true;
     }
+    bool firstTouch;
     private void OnCollisionStay(Collision collision)
     {
         if (collision.gameObject.tag == "Machine" && canGetPizza)
         {
+            if (!firstTouch)
+            {
+                firstTouch = true;
+                GlobalInstance.Instance.gameManager.guideMachine.SetActive(false);
+                GlobalInstance.Instance.gameManager.arrowGuideHolder.SetActive(true);
+            }
+            if (foodHolder.transform.childCount == 0)
+            {
+                if (velAxisX != 0 || velAxisY != 0)
+                    animator.SetTrigger("RunCarry");
+                else
+                    animator.SetTrigger("Carry");
+
+            }
+
+            if (foodHolder.transform.childCount == 10)
+            {
+                canvasMess.SetActive(true);
+                canGetPizza = true;
+                return;
+            }
             var machine = collision.gameObject.GetComponent<MachineController>();
             var pizz = machine.GetPizza();
             if (pizz == null)
@@ -233,12 +307,7 @@ public class PlayerController : MonoBehaviour
             GetPizza(pizz);
             StartCoroutine(GetPizzaAgain());
         }
-        if (collision.gameObject.tag == "Table")
-        {
-            _table = collision.gameObject.GetComponent<TableRegion>();
-            foodHolderOnTable = _table.foodHolder;
-            ReleasePizza();
-        }
+
     }
     //private void OnTriggerEnter(Collider other)
     //{

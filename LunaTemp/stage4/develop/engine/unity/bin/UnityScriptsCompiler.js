@@ -1,6 +1,6 @@
-if ( TRACE ) { TRACE( JSON.parse( '["AutoDestroy#init","AutoDestroy#OnEnable","AutoDestroy#Update","AutoDestroy#OnDestroy","AutoDestroy#OnDisable","AutoDestructor#init","AutoDestructor#OnEnable","AutoDestructor#AutoDestroy","AutoDestructor#OnDisable","CameraController#init","CameraController#Start","CameraController#LateUpdate","CameraController#GetOffset","CameraController#CameraFollow","DefineHelper#init","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#ctor","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#ctor","DG.Tweening.DOTweenCYInstruction.WaitForKill#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForKill#ctor","DG.Tweening.DOTweenCYInstruction.WaitForPosition#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForPosition#ctor","DG.Tweening.DOTweenCYInstruction.WaitForRewind#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForRewind#ctor","DG.Tweening.DOTweenCYInstruction.WaitForStart#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForStart#ctor","DG.Tweening.DOTweenModuleAudio#DOFade","DG.Tweening.DOTweenModuleAudio#DOPitch","DG.Tweening.DOTweenModuleAudio#DOSetFloat","DG.Tweening.DOTweenModuleAudio#DOComplete","DG.Tweening.DOTweenModuleAudio#DOKill","DG.Tweening.DOTweenModuleAudio#DOFlip","DG.Tweening.DOTweenModuleAudio#DOGoto","DG.Tweening.DOTweenModuleAudio#DOPause","DG.Tweening.DOTweenModuleAudio#DOPlay","DG.Tweening.DOTweenModuleAudio#DOPlayBackwards","DG.Tweening.DOTweenModuleAudio#DOPlayForward","DG.Tweening.DOTweenModuleAudio#DORestart","DG.Tweening.DOTweenModuleAudio#DORewind","DG.Tweening.DOTweenModuleAudio#DOSmoothRewind","DG.Tweening.DOTweenModuleAudio#DOTogglePause","DG.Tweening.DOTweenModulePhysics#DOMove","DG.Tweening.DOTweenModulePhysics#DOMoveX","DG.Tweening.DOTweenModulePhysics#DOMoveY","DG.Tweening.DOTweenModulePhysics#DOMoveZ","DG.Tweening.DOTweenModulePhysics#DORotate","DG.Tweening.DOTweenModulePhysics#DOLookAt","DG.Tweening.DOTweenModulePhysics#DOJump","DG.Tweening.DOTweenModulePhysics#DOPath","DG.Tweening.DOTweenModulePhysics#DOPath$1","DG.Tweening.DOTweenModulePhysics#DOLocalPath","DG.Tweening.DOTweenModulePhysics#DOLocalPath$1","DG.Tweening.DOTweenModulePhysics2D#DOMove","DG.Tweening.DOTweenModulePhysics2D#DOMoveX","DG.Tweening.DOTweenModulePhysics2D#DOMoveY","DG.Tweening.DOTweenModulePhysics2D#DORotate","DG.Tweening.DOTweenModulePhysics2D#DOJump","DG.Tweening.DOTweenModulePhysics2D#DOPath","DG.Tweening.DOTweenModulePhysics2D#DOPath$1","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath$1","DG.Tweening.DOTweenModuleSprite#DOColor","DG.Tweening.DOTweenModuleSprite#DOFade","DG.Tweening.DOTweenModuleSprite#DOGradientColor","DG.Tweening.DOTweenModuleSprite#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOFade","DG.Tweening.DOTweenModuleUI#DOFade$1","DG.Tweening.DOTweenModuleUI#DOFade$2","DG.Tweening.DOTweenModuleUI#DOFade$3","DG.Tweening.DOTweenModuleUI#DOFade$4","DG.Tweening.DOTweenModuleUI#DOColor","DG.Tweening.DOTweenModuleUI#DOColor$1","DG.Tweening.DOTweenModuleUI#DOColor$2","DG.Tweening.DOTweenModuleUI#DOColor$3","DG.Tweening.DOTweenModuleUI#DOFillAmount","DG.Tweening.DOTweenModuleUI#DOGradientColor","DG.Tweening.DOTweenModuleUI#DOFlexibleSize","DG.Tweening.DOTweenModuleUI#DOMinSize","DG.Tweening.DOTweenModuleUI#DOPreferredSize","DG.Tweening.DOTweenModuleUI#DOScale","DG.Tweening.DOTweenModuleUI#DOAnchorPos","DG.Tweening.DOTweenModuleUI#DOAnchorPosX","DG.Tweening.DOTweenModuleUI#DOAnchorPosY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3D","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DX","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DZ","DG.Tweening.DOTweenModuleUI#DOAnchorMax","DG.Tweening.DOTweenModuleUI#DOAnchorMin","DG.Tweening.DOTweenModuleUI#DOPivot","DG.Tweening.DOTweenModuleUI#DOPivotX","DG.Tweening.DOTweenModuleUI#DOPivotY","DG.Tweening.DOTweenModuleUI#DOSizeDelta","DG.Tweening.DOTweenModuleUI#DOPunchAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos$1","DG.Tweening.DOTweenModuleUI#DOJumpAnchorPos","DG.Tweening.DOTweenModuleUI#DONormalizedPos","DG.Tweening.DOTweenModuleUI#DOHorizontalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOVerticalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOValue","DG.Tweening.DOTweenModuleUI#DOCounter","DG.Tweening.DOTweenModuleUI#DOText","DG.Tweening.DOTweenModuleUI#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOBlendableColor$1","DG.Tweening.DOTweenModuleUI#DOBlendableColor$2","DG.Tweening.DOTweenModuleUI#DOShapeCircle","DG.Tweening.DOTweenModuleUI.Utils#SwitchToRectTransform","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor$1","DG.Tweening.DOTweenModuleUnityVersion#WaitForCompletion","DG.Tweening.DOTweenModuleUnityVersion#WaitForRewind","DG.Tweening.DOTweenModuleUnityVersion#WaitForKill","DG.Tweening.DOTweenModuleUnityVersion#WaitForElapsedLoops","DG.Tweening.DOTweenModuleUnityVersion#WaitForPosition","DG.Tweening.DOTweenModuleUnityVersion#WaitForStart","DG.Tweening.DOTweenModuleUnityVersion#DOOffset","DG.Tweening.DOTweenModuleUnityVersion#DOTiling","DG.Tweening.DOTweenModuleUtils#Init","DG.Tweening.DOTweenModuleUtils#Preserver","DG.Tweening.DOTweenModuleUtils.Physics#SetOrientationOnPath","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody2D","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody","DG.Tweening.DOTweenModuleUtils.Physics#CreateDOTweenPathTween","DropMoney#Init","DropMoney#AddListener","DropMoney#OnDestroy","DropMoney#RemoveListener","DropMoney#DropMoneyToUnlock","DropMoney#IEDrop","DropMoney#EndDrop","DropMoney#SetTarget","EpicToonFX.ETFXButtonScript#Start","EpicToonFX.ETFXButtonScript#Update","EpicToonFX.ETFXButtonScript#getProjectileNames","EpicToonFX.ETFXButtonScript#overButton","EpicToonFX.ETFXFireProjectile#init","EpicToonFX.ETFXFireProjectile#Start","EpicToonFX.ETFXFireProjectile#Update","EpicToonFX.ETFXFireProjectile#nextEffect","EpicToonFX.ETFXFireProjectile#previousEffect","EpicToonFX.ETFXFireProjectile#AdjustSpeed","EpicToonFX.ETFXLightFade#init","EpicToonFX.ETFXLightFade#Start","EpicToonFX.ETFXLightFade#Update","EpicToonFX.ETFXLoopScript#init","EpicToonFX.ETFXLoopScript#Start","EpicToonFX.ETFXLoopScript#PlayEffect","EpicToonFX.ETFXLoopScript#EffectLoop","EpicToonFX.ETFXMouseOrbit#ClampAngle","EpicToonFX.ETFXMouseOrbit#init","EpicToonFX.ETFXMouseOrbit#Start","EpicToonFX.ETFXMouseOrbit#LateUpdate","EpicToonFX.ETFXPitchRandomizer#init","EpicToonFX.ETFXPitchRandomizer#Start","EpicToonFX.ETFXRotation#init","EpicToonFX.ETFXRotation#Start","EpicToonFX.ETFXRotation#Update","EpicToonFX.ETFXTarget#Start","EpicToonFX.ETFXTarget#SpawnTarget","EpicToonFX.ETFXTarget#OnTriggerEnter","EpicToonFX.ETFXTarget#Respawn","ETFXProjectileScript#init","ETFXProjectileScript#Start","ETFXProjectileScript#FixedUpdate","ETFXSceneManager#init","ETFXSceneManager#LoadScene1","ETFXSceneManager#LoadScene2","ETFXSceneManager#LoadScene3","ETFXSceneManager#LoadScene4","ETFXSceneManager#LoadScene5","ETFXSceneManager#LoadScene6","ETFXSceneManager#LoadScene7","ETFXSceneManager#LoadScene8","ETFXSceneManager#LoadScene9","ETFXSceneManager#LoadScene10","ETFXSceneManager#LoadScene11","ETFXSceneManager#LoadScene12","ETFXSceneManager#LoadScene13","ETFXSceneManager#Update","EventDispatcher#Instance#get","EventDispatcher#Instance#set","EventDispatcher#HasInstance","EventDispatcher#init","EventDispatcher#Awake","EventDispatcher#OnDestroy","EventDispatcher#RegisterListener","EventDispatcher#PostEvent","EventDispatcher#RemoveListener","EventDispatcher#ClearAllListener","EventDispatcherExtension#RegisterListener","EventDispatcherExtension#PostEvent$1","EventDispatcherExtension#PostEvent","EventDispatcherExtension#RemoveListener","SingletonMono$1#init","SingletonMono$1#Awake","GuestController#Awake","GuestController#SetAnim","HelperUtility#DecimalRounding","HelperUtility#DisruptiveArrayObject","HelperUtility#DisruptiveListObject$1","HelperUtility#DisruptiveListObject","HelperUtility#DisruptiveList","HelperUtility#DisruptiveListSelf","HelperUtility#SelectionSortList","HelperUtility#StartThread","HelperUtility#StartThread$1","HelperUtility#StartAction$1","HelperUtility#StartAction","HelperUtility#StartActionRealTime","HelperUtility#StartActionNotUseCorutines","HelperUtility#GetPointDistanceFromObject","HelperUtility#GetDirectionFromAngle","HelperUtility#GetDirectionFromAngle_2","HelperUtility#DOLocalRotateQuaternion","HelperUtility#GetRotateDirection","HelperUtility#LookAtToDirection","HelperUtility#LookAtToDirectionAngleDetal","HelperUtility#LookAtToPosition","HelperUtility#LookAtToPositionAngleDetal","HelperUtility#RandomCustom","HelperUtility#RandomUnduplicated$1","HelperUtility#RandomUnduplicated","HelperUtility#SetPos","HelperUtility#PosHandle","LookAtCam#Update","LunaPool#init","LunaPool#init","LunaPool#Awake","LunaPool#Spawn","LunaPool#Despawn","MachineController#GetPizza","MMMaths#Vector3ToVector2","MMMaths#Vector2ToVector3","MMMaths#Vector2ToVector3$1","MMMaths#RandomVector3","MMMaths#RotatePointAroundPivot","MMMaths#RotatePointAroundPivot$1","MMMaths#Sum","MMMaths#RollADice","MMMaths#Chance","MMMaths#Approach","NameTag#init","ParticleEffectsLibrary#init","ParticleEffectsLibrary#Awake","ParticleEffectsLibrary#Start","ParticleEffectsLibrary#GetCurrentPENameString","ParticleEffectsLibrary#PreviousParticleEffect","ParticleEffectsLibrary#NextParticleEffect","ParticleEffectsLibrary#SpawnParticleEffect","PEButtonScript#init","PEButtonScript#Start","PEButtonScript#OnPointerEnter","PEButtonScript#OnPointerExit","PEButtonScript#OnButtonClicked","PEDestoryTimed#Start","PEDestoryTimed#Update","PlayerController#init","PlayerController#Init","PlayerController#Update","PlayerController#FixedUpdate","PlayerController#Move","PlayerController#ResetSoundRun","PlayerController#IEResetSoundRun","PlayerController#RotateFacing","PlayerController#AnimRun","PlayerController#AnimIdle","PlayerController#GetPizza","PlayerController#ReleasePizza","PlayerController#IEReleaseBrick","PlayerController#OnTriggerExit","PlayerController#OnTriggerStay","PlayerController#GetPizzaAgain","PlayerController#OnCollisionStay","RotateObject#Start","SimplePool#init","SimplePool#Init","SimplePool#PoolPreLoad","SimplePool#Preload","SimplePool#Spawn$3","SimplePool#Spawn$2","SimplePool#Spawn","SimplePool#Spawn$1","SimplePool#Despawn","SimplePool#GetStackCount","SimplePool#ClearPool","SimplePool.Pool#StackCount#get","SimplePool.Pool#init","SimplePool.Pool#ctor","SimplePool.Pool#Preload","SimplePool.Pool#Spawn$1","SimplePool.Pool#Spawn","SimplePool.Pool#Despawn","SingletonWithouMono$1#Instance#get","SingletonWithouMono$1#init","SingletonWithouMono$1#init","SingletonWithouMono$1#Initialize","SingletonWithouMono$1#Preload","TableRegion#init","TableRegion#Start","TableRegion#IsFullOfPizza","TableRegion#GetFood","UICanvasManager#init","UICanvasManager#Awake","UICanvasManager#Start","UICanvasManager#Update","UICanvasManager#UpdateToolTip","UICanvasManager#ClearToolTip","UICanvasManager#SelectPreviousPE","UICanvasManager#SelectNextPE","UICanvasManager#SpawnCurrentParticleEffect","UICanvasManager#UIButtonClick","UltimateJoystick#init","UltimateJoystick#JoystickConfirmed","UltimateJoystick#GetUltimateJoystick","UltimateJoystick#GetHorizontalAxis","UltimateJoystick#GetVerticalAxis","UltimateJoystick#GetHorizontalAxisRaw","UltimateJoystick#GetVerticalAxisRaw","UltimateJoystick#GetDistance","UltimateJoystick#GetJoystickState","UltimateJoystick#GetTapCount","UltimateJoystick#DisableJoystick","UltimateJoystick#EnableJoystick","UltimateJoystick#init","UltimateJoystick#Awake","UltimateJoystick#Start","UltimateJoystick#OnPointerDown","UltimateJoystick#OnDrag","UltimateJoystick#OnPointerUp","UltimateJoystick#UpdateJoystick","UltimateJoystick#ConfigureImagePosition","UltimateJoystick#TensionAccentDisplay","UltimateJoystick#TensionAccentReset","UltimateJoystick#GravityHandler","UltimateJoystick#GetParentCanvas","UltimateJoystick#GetCanvasGroup","UltimateJoystick#FadeLogic","UltimateJoystick#TapCountdown","UltimateJoystick#TapCountDelay","UltimateJoystick#CheckJoystickHighlightForUse","UltimateJoystick#UpdatePositionValues","UltimateJoystick#ResetJoystick","UltimateJoystick#UpdateSizeAndPlacement","UltimateJoystick#UpdatePositioning","UltimateJoystick#GetHorizontalAxis","UltimateJoystick#GetVerticalAxis","UltimateJoystick#GetHorizontalAxisRaw","UltimateJoystick#GetVerticalAxisRaw","UltimateJoystick#GetDistance","UltimateJoystick#UpdateHighlightColor","UltimateJoystick#UpdateTensionColors","UltimateJoystick#GetJoystickState","UltimateJoystick#GetTapCount","UltimateJoystick#DisableJoystick","UltimateJoystick#EnableJoystick","UltimateJoystickExample.Spaceship.AsteroidController#init","UltimateJoystickExample.Spaceship.AsteroidController#Setup","UltimateJoystickExample.Spaceship.AsteroidController#DelayInitialDestruction","UltimateJoystickExample.Spaceship.AsteroidController#Update","UltimateJoystickExample.Spaceship.AsteroidController#OnCollisionEnter","UltimateJoystickExample.Spaceship.AsteroidController#Explode","UltimateJoystickExample.Spaceship.GameManager#Instance#get","UltimateJoystickExample.Spaceship.GameManager#init","UltimateJoystickExample.Spaceship.GameManager#Awake","UltimateJoystickExample.Spaceship.GameManager#Start","UltimateJoystickExample.Spaceship.GameManager#SpawnTimer","UltimateJoystickExample.Spaceship.GameManager#SpawnAsteroid","UltimateJoystickExample.Spaceship.GameManager#SpawnDebris","UltimateJoystickExample.Spaceship.GameManager#SpawnExplosion","UltimateJoystickExample.Spaceship.GameManager#ShowDeathScreen","UltimateJoystickExample.Spaceship.GameManager#FadeDeathScreen","UltimateJoystickExample.Spaceship.GameManager#ModifyScore","UltimateJoystickExample.Spaceship.GameManager#UpdateScoreText","UltimateJoystickExample.Spaceship.GameManager#ShakeCamera","UltimateJoystickExample.Spaceship.PlayerController#init","UltimateJoystickExample.Spaceship.PlayerController#Start","UltimateJoystickExample.Spaceship.PlayerController#Update","UltimateJoystickExample.Spaceship.PlayerController#FixedUpdate","UltimateJoystickExample.Spaceship.PlayerController#CheckExitScreen","UltimateJoystickExample.Spaceship.PlayerController#CreateBullets","UltimateJoystickScreenSizeUpdater#OnRectTransformDimensionsChange","UltimateJoystickScreenSizeUpdater#YieldPositioning","UnlockController#init","UnlockController#Awake","UnlockController#Start","UnlockController#ActivePrefab","UnlockController#Scale","UnlockController#UnScale","UnlockController#OnTriggerStay","UnlockController#Fill","UnlockController#OnTriggerExit","UnlockController#UnFill","UnlockController#Unlock","UnlockController#SetTotalMoneyPlayer","UnlockController#UpdatePrice","VectorUlti#GetVectorFromAngle","VectorUlti#GetAngleFromVector","VectorUlti#Set$1","VectorUlti#Set","VectorUlti#Move","VectorUlti#ToVectorXZ","Singleton$1#Instance#get","GameManager1#inherits","GameManager1#Start","GameManager1#InstallFullGame","GameManager1#ShowEndcard","GameManager2#inherits","GameManager2#Start","GameManager2#InstallFullGame","GameManager2#ShowEndcard","GlobalInstance#inherits","GlobalInstance#init","SingletonDontDestroyOnLoad$1#Awake","SoundManager#inherits","SoundManager#PlaySoundEnterRegion","SoundManager#PlaySoundCrashMoney","SoundManager#PlaySoundUnlock"]' ) ); }
+if ( TRACE ) { TRACE( JSON.parse( '["AutoDestroy#init","AutoDestroy#OnEnable","AutoDestroy#Update","AutoDestroy#OnDestroy","AutoDestroy#OnDisable","AutoDestructor#init","AutoDestructor#OnEnable","AutoDestructor#AutoDestroy","AutoDestructor#OnDisable","CameraController#init","CameraController#Start","CameraController#LateUpdate","CameraController#GetOffset","CameraController#CameraFollow","DefineHelper#init","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#ctor","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#ctor","DG.Tweening.DOTweenCYInstruction.WaitForKill#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForKill#ctor","DG.Tweening.DOTweenCYInstruction.WaitForPosition#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForPosition#ctor","DG.Tweening.DOTweenCYInstruction.WaitForRewind#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForRewind#ctor","DG.Tweening.DOTweenCYInstruction.WaitForStart#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForStart#ctor","DG.Tweening.DOTweenModuleAudio#DOFade","DG.Tweening.DOTweenModuleAudio#DOPitch","DG.Tweening.DOTweenModuleAudio#DOSetFloat","DG.Tweening.DOTweenModuleAudio#DOComplete","DG.Tweening.DOTweenModuleAudio#DOKill","DG.Tweening.DOTweenModuleAudio#DOFlip","DG.Tweening.DOTweenModuleAudio#DOGoto","DG.Tweening.DOTweenModuleAudio#DOPause","DG.Tweening.DOTweenModuleAudio#DOPlay","DG.Tweening.DOTweenModuleAudio#DOPlayBackwards","DG.Tweening.DOTweenModuleAudio#DOPlayForward","DG.Tweening.DOTweenModuleAudio#DORestart","DG.Tweening.DOTweenModuleAudio#DORewind","DG.Tweening.DOTweenModuleAudio#DOSmoothRewind","DG.Tweening.DOTweenModuleAudio#DOTogglePause","DG.Tweening.DOTweenModulePhysics#DOMove","DG.Tweening.DOTweenModulePhysics#DOMoveX","DG.Tweening.DOTweenModulePhysics#DOMoveY","DG.Tweening.DOTweenModulePhysics#DOMoveZ","DG.Tweening.DOTweenModulePhysics#DORotate","DG.Tweening.DOTweenModulePhysics#DOLookAt","DG.Tweening.DOTweenModulePhysics#DOJump","DG.Tweening.DOTweenModulePhysics#DOPath","DG.Tweening.DOTweenModulePhysics#DOPath$1","DG.Tweening.DOTweenModulePhysics#DOLocalPath","DG.Tweening.DOTweenModulePhysics#DOLocalPath$1","DG.Tweening.DOTweenModulePhysics2D#DOMove","DG.Tweening.DOTweenModulePhysics2D#DOMoveX","DG.Tweening.DOTweenModulePhysics2D#DOMoveY","DG.Tweening.DOTweenModulePhysics2D#DORotate","DG.Tweening.DOTweenModulePhysics2D#DOJump","DG.Tweening.DOTweenModulePhysics2D#DOPath","DG.Tweening.DOTweenModulePhysics2D#DOPath$1","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath$1","DG.Tweening.DOTweenModuleSprite#DOColor","DG.Tweening.DOTweenModuleSprite#DOFade","DG.Tweening.DOTweenModuleSprite#DOGradientColor","DG.Tweening.DOTweenModuleSprite#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOFade","DG.Tweening.DOTweenModuleUI#DOFade$1","DG.Tweening.DOTweenModuleUI#DOFade$2","DG.Tweening.DOTweenModuleUI#DOFade$3","DG.Tweening.DOTweenModuleUI#DOFade$4","DG.Tweening.DOTweenModuleUI#DOColor","DG.Tweening.DOTweenModuleUI#DOColor$1","DG.Tweening.DOTweenModuleUI#DOColor$2","DG.Tweening.DOTweenModuleUI#DOColor$3","DG.Tweening.DOTweenModuleUI#DOFillAmount","DG.Tweening.DOTweenModuleUI#DOGradientColor","DG.Tweening.DOTweenModuleUI#DOFlexibleSize","DG.Tweening.DOTweenModuleUI#DOMinSize","DG.Tweening.DOTweenModuleUI#DOPreferredSize","DG.Tweening.DOTweenModuleUI#DOScale","DG.Tweening.DOTweenModuleUI#DOAnchorPos","DG.Tweening.DOTweenModuleUI#DOAnchorPosX","DG.Tweening.DOTweenModuleUI#DOAnchorPosY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3D","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DX","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DZ","DG.Tweening.DOTweenModuleUI#DOAnchorMax","DG.Tweening.DOTweenModuleUI#DOAnchorMin","DG.Tweening.DOTweenModuleUI#DOPivot","DG.Tweening.DOTweenModuleUI#DOPivotX","DG.Tweening.DOTweenModuleUI#DOPivotY","DG.Tweening.DOTweenModuleUI#DOSizeDelta","DG.Tweening.DOTweenModuleUI#DOPunchAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos$1","DG.Tweening.DOTweenModuleUI#DOJumpAnchorPos","DG.Tweening.DOTweenModuleUI#DONormalizedPos","DG.Tweening.DOTweenModuleUI#DOHorizontalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOVerticalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOValue","DG.Tweening.DOTweenModuleUI#DOCounter","DG.Tweening.DOTweenModuleUI#DOText","DG.Tweening.DOTweenModuleUI#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOBlendableColor$1","DG.Tweening.DOTweenModuleUI#DOBlendableColor$2","DG.Tweening.DOTweenModuleUI#DOShapeCircle","DG.Tweening.DOTweenModuleUI.Utils#SwitchToRectTransform","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor$1","DG.Tweening.DOTweenModuleUnityVersion#WaitForCompletion","DG.Tweening.DOTweenModuleUnityVersion#WaitForRewind","DG.Tweening.DOTweenModuleUnityVersion#WaitForKill","DG.Tweening.DOTweenModuleUnityVersion#WaitForElapsedLoops","DG.Tweening.DOTweenModuleUnityVersion#WaitForPosition","DG.Tweening.DOTweenModuleUnityVersion#WaitForStart","DG.Tweening.DOTweenModuleUnityVersion#DOOffset","DG.Tweening.DOTweenModuleUnityVersion#DOTiling","DG.Tweening.DOTweenModuleUtils#Init","DG.Tweening.DOTweenModuleUtils#Preserver","DG.Tweening.DOTweenModuleUtils.Physics#SetOrientationOnPath","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody2D","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody","DG.Tweening.DOTweenModuleUtils.Physics#CreateDOTweenPathTween","DropMoney#Init","DropMoney#AddListener","DropMoney#OnDestroy","DropMoney#RemoveListener","DropMoney#DropMoneyToUnlock","DropMoney#IEDrop","DropMoney#EndDrop","DropMoney#SetTarget","EpicToonFX.ETFXButtonScript#Start","EpicToonFX.ETFXButtonScript#Update","EpicToonFX.ETFXButtonScript#getProjectileNames","EpicToonFX.ETFXButtonScript#overButton","EpicToonFX.ETFXFireProjectile#init","EpicToonFX.ETFXFireProjectile#Start","EpicToonFX.ETFXFireProjectile#Update","EpicToonFX.ETFXFireProjectile#nextEffect","EpicToonFX.ETFXFireProjectile#previousEffect","EpicToonFX.ETFXFireProjectile#AdjustSpeed","EpicToonFX.ETFXLightFade#init","EpicToonFX.ETFXLightFade#Start","EpicToonFX.ETFXLightFade#Update","EpicToonFX.ETFXLoopScript#init","EpicToonFX.ETFXLoopScript#Start","EpicToonFX.ETFXLoopScript#PlayEffect","EpicToonFX.ETFXLoopScript#EffectLoop","EpicToonFX.ETFXMouseOrbit#ClampAngle","EpicToonFX.ETFXMouseOrbit#init","EpicToonFX.ETFXMouseOrbit#Start","EpicToonFX.ETFXMouseOrbit#LateUpdate","EpicToonFX.ETFXPitchRandomizer#init","EpicToonFX.ETFXPitchRandomizer#Start","EpicToonFX.ETFXRotation#init","EpicToonFX.ETFXRotation#Start","EpicToonFX.ETFXRotation#Update","EpicToonFX.ETFXTarget#Start","EpicToonFX.ETFXTarget#SpawnTarget","EpicToonFX.ETFXTarget#OnTriggerEnter","EpicToonFX.ETFXTarget#Respawn","ETFXProjectileScript#init","ETFXProjectileScript#Start","ETFXProjectileScript#FixedUpdate","ETFXSceneManager#init","ETFXSceneManager#LoadScene1","ETFXSceneManager#LoadScene2","ETFXSceneManager#LoadScene3","ETFXSceneManager#LoadScene4","ETFXSceneManager#LoadScene5","ETFXSceneManager#LoadScene6","ETFXSceneManager#LoadScene7","ETFXSceneManager#LoadScene8","ETFXSceneManager#LoadScene9","ETFXSceneManager#LoadScene10","ETFXSceneManager#LoadScene11","ETFXSceneManager#LoadScene12","ETFXSceneManager#LoadScene13","ETFXSceneManager#Update","EventDispatcher#Instance#get","EventDispatcher#Instance#set","EventDispatcher#HasInstance","EventDispatcher#init","EventDispatcher#Awake","EventDispatcher#OnDestroy","EventDispatcher#RegisterListener","EventDispatcher#PostEvent","EventDispatcher#RemoveListener","EventDispatcher#ClearAllListener","EventDispatcherExtension#RegisterListener","EventDispatcherExtension#PostEvent$1","EventDispatcherExtension#PostEvent","EventDispatcherExtension#RemoveListener","SingletonMono$1#init","SingletonMono$1#Awake","GuestController#Awake","GuestController#Eating","HelperUtility#DecimalRounding","HelperUtility#DisruptiveArrayObject","HelperUtility#DisruptiveListObject$1","HelperUtility#DisruptiveListObject","HelperUtility#DisruptiveList","HelperUtility#DisruptiveListSelf","HelperUtility#SelectionSortList","HelperUtility#StartThread","HelperUtility#StartThread$1","HelperUtility#StartAction$1","HelperUtility#StartAction","HelperUtility#StartActionRealTime","HelperUtility#StartActionNotUseCorutines","HelperUtility#GetPointDistanceFromObject","HelperUtility#GetDirectionFromAngle","HelperUtility#GetDirectionFromAngle_2","HelperUtility#DOLocalRotateQuaternion","HelperUtility#GetRotateDirection","HelperUtility#LookAtToDirection","HelperUtility#LookAtToDirectionAngleDetal","HelperUtility#LookAtToPosition","HelperUtility#LookAtToPositionAngleDetal","HelperUtility#RandomCustom","HelperUtility#RandomUnduplicated$1","HelperUtility#RandomUnduplicated","HelperUtility#SetPos","HelperUtility#PosHandle","LookAtCam#Update","LunaPool#init","LunaPool#init","LunaPool#Awake","LunaPool#Spawn","LunaPool#Despawn","MachineController#GetPizza","MMMaths#Vector3ToVector2","MMMaths#Vector2ToVector3","MMMaths#Vector2ToVector3$1","MMMaths#RandomVector3","MMMaths#RotatePointAroundPivot","MMMaths#RotatePointAroundPivot$1","MMMaths#Sum","MMMaths#RollADice","MMMaths#Chance","MMMaths#Approach","NameTag#init","ParticleEffectsLibrary#init","ParticleEffectsLibrary#Awake","ParticleEffectsLibrary#Start","ParticleEffectsLibrary#GetCurrentPENameString","ParticleEffectsLibrary#PreviousParticleEffect","ParticleEffectsLibrary#NextParticleEffect","ParticleEffectsLibrary#SpawnParticleEffect","PEButtonScript#init","PEButtonScript#Start","PEButtonScript#OnPointerEnter","PEButtonScript#OnPointerExit","PEButtonScript#OnButtonClicked","PEDestoryTimed#Start","PEDestoryTimed#Update","PlayerController#init","PlayerController#Init","PlayerController#Update","PlayerController#FixedUpdate","PlayerController#Move","PlayerController#ResetSoundRun","PlayerController#IEResetSoundRun","PlayerController#RotateFacing","PlayerController#AnimRun","PlayerController#AnimIdle","PlayerController#GetPizza","PlayerController#ReleasePizza","PlayerController#IEReleasePizza","PlayerController#OnCollisionExit","PlayerController#OnTriggerExit","PlayerController#OnTriggerStay","PlayerController#GetPizzaAgain","PlayerController#OnCollisionStay","RotateObject#Start","SimplePool#init","SimplePool#Init","SimplePool#PoolPreLoad","SimplePool#Preload","SimplePool#Spawn$3","SimplePool#Spawn$2","SimplePool#Spawn","SimplePool#Spawn$1","SimplePool#Despawn","SimplePool#GetStackCount","SimplePool#ClearPool","SimplePool.Pool#StackCount#get","SimplePool.Pool#init","SimplePool.Pool#ctor","SimplePool.Pool#Preload","SimplePool.Pool#Spawn$1","SimplePool.Pool#Spawn","SimplePool.Pool#Despawn","SingletonWithouMono$1#Instance#get","SingletonWithouMono$1#init","SingletonWithouMono$1#init","SingletonWithouMono$1#Initialize","SingletonWithouMono$1#Preload","TableRegion#init","TableRegion#IsFullOfPizza","TableRegion#OnTriggerEnter","TableRegion#UpdateMessServe","UICanvasManager#init","UICanvasManager#Awake","UICanvasManager#Start","UICanvasManager#Update","UICanvasManager#UpdateToolTip","UICanvasManager#ClearToolTip","UICanvasManager#SelectPreviousPE","UICanvasManager#SelectNextPE","UICanvasManager#SpawnCurrentParticleEffect","UICanvasManager#UIButtonClick","UltimateJoystick#init","UltimateJoystick#JoystickConfirmed","UltimateJoystick#GetUltimateJoystick","UltimateJoystick#GetHorizontalAxis","UltimateJoystick#GetVerticalAxis","UltimateJoystick#GetHorizontalAxisRaw","UltimateJoystick#GetVerticalAxisRaw","UltimateJoystick#GetDistance","UltimateJoystick#GetJoystickState","UltimateJoystick#GetTapCount","UltimateJoystick#DisableJoystick","UltimateJoystick#EnableJoystick","UltimateJoystick#init","UltimateJoystick#Awake","UltimateJoystick#Start","UltimateJoystick#OnPointerDown","UltimateJoystick#OnDrag","UltimateJoystick#OnPointerUp","UltimateJoystick#UpdateJoystick","UltimateJoystick#ConfigureImagePosition","UltimateJoystick#TensionAccentDisplay","UltimateJoystick#TensionAccentReset","UltimateJoystick#GravityHandler","UltimateJoystick#GetParentCanvas","UltimateJoystick#GetCanvasGroup","UltimateJoystick#FadeLogic","UltimateJoystick#TapCountdown","UltimateJoystick#TapCountDelay","UltimateJoystick#CheckJoystickHighlightForUse","UltimateJoystick#UpdatePositionValues","UltimateJoystick#ResetJoystick","UltimateJoystick#UpdateSizeAndPlacement","UltimateJoystick#UpdatePositioning","UltimateJoystick#GetHorizontalAxis","UltimateJoystick#GetVerticalAxis","UltimateJoystick#GetHorizontalAxisRaw","UltimateJoystick#GetVerticalAxisRaw","UltimateJoystick#GetDistance","UltimateJoystick#UpdateHighlightColor","UltimateJoystick#UpdateTensionColors","UltimateJoystick#GetJoystickState","UltimateJoystick#GetTapCount","UltimateJoystick#DisableJoystick","UltimateJoystick#EnableJoystick","UltimateJoystickExample.Spaceship.AsteroidController#init","UltimateJoystickExample.Spaceship.AsteroidController#Setup","UltimateJoystickExample.Spaceship.AsteroidController#DelayInitialDestruction","UltimateJoystickExample.Spaceship.AsteroidController#Update","UltimateJoystickExample.Spaceship.AsteroidController#OnCollisionEnter","UltimateJoystickExample.Spaceship.AsteroidController#Explode","UltimateJoystickExample.Spaceship.GameManager#Instance#get","UltimateJoystickExample.Spaceship.GameManager#init","UltimateJoystickExample.Spaceship.GameManager#Awake","UltimateJoystickExample.Spaceship.GameManager#Start","UltimateJoystickExample.Spaceship.GameManager#SpawnTimer","UltimateJoystickExample.Spaceship.GameManager#SpawnAsteroid","UltimateJoystickExample.Spaceship.GameManager#SpawnDebris","UltimateJoystickExample.Spaceship.GameManager#SpawnExplosion","UltimateJoystickExample.Spaceship.GameManager#ShowDeathScreen","UltimateJoystickExample.Spaceship.GameManager#FadeDeathScreen","UltimateJoystickExample.Spaceship.GameManager#ModifyScore","UltimateJoystickExample.Spaceship.GameManager#UpdateScoreText","UltimateJoystickExample.Spaceship.GameManager#ShakeCamera","UltimateJoystickExample.Spaceship.PlayerController#init","UltimateJoystickExample.Spaceship.PlayerController#Start","UltimateJoystickExample.Spaceship.PlayerController#Update","UltimateJoystickExample.Spaceship.PlayerController#FixedUpdate","UltimateJoystickExample.Spaceship.PlayerController#CheckExitScreen","UltimateJoystickExample.Spaceship.PlayerController#CreateBullets","UltimateJoystickScreenSizeUpdater#OnRectTransformDimensionsChange","UltimateJoystickScreenSizeUpdater#YieldPositioning","UnlockController#init","UnlockController#Awake","UnlockController#Start","UnlockController#ActivePrefab","UnlockController#Scale","UnlockController#UnScale","UnlockController#OnTriggerStay","UnlockController#Fill","UnlockController#OnTriggerExit","UnlockController#UnFill","UnlockController#Unlock","UnlockController#SetTotalMoneyPlayer","UnlockController#UpdatePrice","VectorUlti#GetVectorFromAngle","VectorUlti#GetAngleFromVector","VectorUlti#Set$1","VectorUlti#Set","VectorUlti#Move","VectorUlti#ToVectorXZ","Singleton$1#Instance#get","GameManager1#inherits","GameManager1#Start","GameManager1#InstallFullGame","GameManager1#ShowEndcard","GameManager2#inherits","GameManager2#Start","GameManager2#InstallFullGame","GameManager2#ShowEndcard","GlobalInstance#inherits","GlobalInstance#init","SingletonDontDestroyOnLoad$1#Awake","SoundManager#inherits","SoundManager#PlaySoundEnterRegion","SoundManager#PlaySoundGetPizza","SoundManager#PlaySoundCrashMoney","SoundManager#PlaySoundUnlock"]' ) ); }
 /**
- * @version 1.0.8440.33262
+ * @version 1.0.8441.22009
  * @copyright anton
  * @compiler Bridge.NET 17.9.26-luna
  */
@@ -4712,13 +4712,13 @@ if ( TRACE ) { TRACE( "GuestController#Awake", this ); }
             },
             /*GuestController.Awake end.*/
 
-            /*GuestController.SetAnim start.*/
-            SetAnim: function (state) {
-if ( TRACE ) { TRACE( "GuestController#SetAnim", this ); }
+            /*GuestController.Eating start.*/
+            Eating: function () {
+if ( TRACE ) { TRACE( "GuestController#Eating", this ); }
 
-                this.animator.SetBool$1("Eat", state);
+                this.animator.SetBool$1("Eat", true);
             },
-            /*GuestController.SetAnim end.*/
+            /*GuestController.Eating end.*/
 
 
         }
@@ -6354,11 +6354,15 @@ if ( TRACE ) { TRACE( "PEDestoryTimed#Update", this ); }
             isCarryPizza: false,
             foodHolder: null,
             foodHolderOnTable: null,
+            canvasMess: null,
             _table: null,
+            canSetAnim: false,
+            firstTouch2: false,
             a: null,
             canRelease: false,
             timeReleaseBrick: 0,
-            canGetPizza: false
+            canGetPizza: false,
+            firstTouch: false
         },
         ctors: {
             init: function () {
@@ -6370,6 +6374,7 @@ if ( TRACE ) { TRACE( "PlayerController#init", this ); }
                 this.playSoundRun = true;
                 this.canMove = false;
                 this.vectorMovingDirection = pc.Vec3.ZERO.clone();
+                this.canSetAnim = true;
                 this.canGetPizza = true;
             }
         },
@@ -6420,14 +6425,17 @@ if ( TRACE ) { TRACE( "PlayerController#Move", this ); }
                 this.velAxisX = UltimateJoystick.GetHorizontalAxis(DefineHelper.JoyStick);
                 this.velAxisY = UltimateJoystick.GetVerticalAxis(DefineHelper.JoyStick);
                 if (UnityEngine.Input.GetMouseButtonDown(0)) {
-                    Singleton$1(GlobalInstance).Instance.gameManager.guide.SetActive(false);
-                    Singleton$1(GlobalInstance).Instance.gameManager.guideMachine.SetActive(true);
+                    if (!this.firstTouch2) {
+                        this.firstTouch2 = true;
+                        Singleton$1(GlobalInstance).Instance.gameManager.guide.SetActive(false);
+                        Singleton$1(GlobalInstance).Instance.gameManager.guideMachine.SetActive(true);
+                    }
+
                     this.startTouch = true;
                 }
                 if (UnityEngine.Input.GetMouseButton(0) && this.startTouch) {
                     if ((this.velAxisX !== 0) || (this.velAxisY !== 0)) {
                         this.vectorMovingDirection = new pc.Vec3( this.velAxisX, 0, this.velAxisY ).clone().normalize().$clone();
-
                         this.RotateFacing(this.vectorMovingDirection.$clone());
                         this.canMove = true;
                         this.AnimRun();
@@ -6514,9 +6522,15 @@ if ( TRACE ) { TRACE( "PlayerController#AnimRun", this ); }
                     this.flagAnim2 = true;
                     if (!this.isCarryPizza) {
                         this.animator.SetBool$1("Walk", true);
-                        this.animator.SetTrigger$1("Carry");
+                        if (this.canSetAnim) {
+                            this.canSetAnim = false;
+                            this.animator.SetTrigger$1("Idle");
+                        }
+
                     } else {
-                        this.animator.SetBool$1("Carry", true);
+                        //  animator.SetBool("Walk", true);
+                        this.animator.SetTrigger$1("RunCarry");
+
                     }
 
                 }
@@ -6531,9 +6545,12 @@ if ( TRACE ) { TRACE( "PlayerController#AnimIdle", this ); }
                     this.flagAnim1 = true;
                     this.flagAnim2 = false;
                     if (!this.isCarryPizza) {
-                        this.animator.SetBool$1("Walk", false);
+                        {
+                            this.animator.SetBool$1("Walk", false);
+                        }
                     } else {
-                        this.animator.SetBool$1("RunCarry", false);
+                        this.animator.SetTrigger$1("Carry");
+                        //  animator.SetTrigger("Idle");
                     }
 
                 }
@@ -6544,18 +6561,15 @@ if ( TRACE ) { TRACE( "PlayerController#AnimIdle", this ); }
             GetPizza: function (pizza) {
 if ( TRACE ) { TRACE( "PlayerController#GetPizza", this ); }
 
+                this.canSetAnim = true;
+                Singleton$1(SoundManager).Instance.PlaySoundGetPizza();
                 this.isCarryPizza = true;
-                //brick.transform.localScale = Vector3.one * 800;
-                //brick.transform.localRotation = Quaternion.Euler(new Vector3(-90, 0, 90));
                 pizza.transform.localPosition = pc.Vec3.ZERO.clone();
                 pizza.transform.SetParent(this.foodHolder.transform);
                 if (this.foodHolder.transform.childCount <= 1) {
                     pizza.transform.localPosition = pc.Vec3.ZERO.clone();
-                    //            pizza.transform.DOJump(foodHolder.transform.localPosition, 20, 1, 0.05f).SetEase(Ease.Linear);
-
                 } else {
                     pizza.transform.localPosition = pc.Vec3.UP.clone().clone().scale( 0.2 ).add( this.foodHolder.transform.GetChild(((this.foodHolder.transform.childCount - 2) | 0)).localPosition );
-                    // pizza.transform.DOJump(Vector3.up * 0.05f * (foodHolder.transform.childCount - 2) + foodHolder.transform/*.GetChild(foodHolder.transform.childCount - 2)*/.localPosition, 20, 1, 0.05f).SetEase(Ease.Linear);
 
                 }
 
@@ -6573,21 +6587,27 @@ if ( TRACE ) { TRACE( "PlayerController#ReleasePizza", this ); }
                     this.canRelease = true;
                     return;
                 }
+                if (!this.isCarryPizza && Singleton$1(GlobalInstance).Instance.gameManager.countToEndcard >= 6) {
+                    this.StartCoroutine$1(Singleton$1(GlobalInstance).Instance.gameManager.ShowEndcard());
+                    return;
+                }
                 if (this.canRelease) {
-                    this.StartCoroutine$1(this.IEReleaseBrick());
+
+                    this.StartCoroutine$1(this.IEReleasePizza());
                     this.canRelease = false;
                 }
             },
             /*PlayerController.ReleasePizza end.*/
 
-            /*PlayerController.IEReleaseBrick start.*/
-            IEReleaseBrick: function () {
-if ( TRACE ) { TRACE( "PlayerController#IEReleaseBrick", this ); }
+            /*PlayerController.IEReleasePizza start.*/
+            IEReleasePizza: function () {
+if ( TRACE ) { TRACE( "PlayerController#IEReleasePizza", this ); }
 
                 var $step = 0,
                     $jumpFromFinally,
                     $returnValue,
                     _pizza,
+                    $t,
                     $async_e;
 
                 var $enumerator = new Bridge.GeneratorEnumerator(Bridge.fn.bind(this, function () {
@@ -6609,7 +6629,7 @@ if ( TRACE ) { TRACE( "PlayerController#IEReleaseBrick", this ); }
                                     continue;
                                 }
                                 case 2: {
-                                    if (this.foodHolder.transform.childCount === 0 || this._table.IsFullOfPizza()) {
+                                    if (this.foodHolder.transform.childCount === 0) {
                                             $step = 3;
                                             continue;
                                         } 
@@ -6617,21 +6637,40 @@ if ( TRACE ) { TRACE( "PlayerController#IEReleaseBrick", this ); }
                                         continue;
                                 }
                                 case 3: {
-                                    this.canRelease = true;
+                                    this.animator.SetTrigger$1("Idle");
                                         this.isCarryPizza = false;
                                         return false;
                                     $step = 4;
                                     continue;
                                 }
                                 case 4: {
-                                    _pizza = this.foodHolder.transform.GetChild(((this.foodHolder.transform.childCount - 1) | 0)).gameObject;
-                                        _pizza.transform.SetParent(this.foodHolderOnTable.transform);
-                                        DG.Tweening.TweenSettingsExtensions.SetEase$2(DG.Tweening.Sequence, DG.Tweening.ShortcutExtensions.DOJump(_pizza.transform, pc.Vec3.UP.clone().clone().scale( 0.5 ).clone().scale( this.foodHolderOnTable.transform.childCount ).add( this.foodHolderOnTable.transform.position ), 20, 1, 0.5), DG.Tweening.Ease.Linear);
-                                        $enumerator.current = new UnityEngine.WaitForSeconds(this.timeReleaseBrick);
-                                        $step = 5;
-                                        return true;
+                                    if (this._table.IsFullOfPizza()) {
+                                            $step = 5;
+                                            continue;
+                                        } 
+                                        $step = 6;
+                                        continue;
                                 }
                                 case 5: {
+                                    this.canRelease = true;
+                                        return false;
+                                    $step = 6;
+                                    continue;
+                                }
+                                case 6: {
+                                    Singleton$1(SoundManager).Instance.PlaySoundEnterRegion();
+                                        this.canvasMess.SetActive(false);
+                                        _pizza = this.foodHolder.transform.GetChild(((this.foodHolder.transform.childCount - 1) | 0)).gameObject;
+                                        _pizza.transform.SetParent(this.foodHolderOnTable.transform);
+                                        this._table.UpdateMessServe();
+                                        DG.Tweening.TweenSettingsExtensions.SetEase$2(DG.Tweening.Sequence, DG.Tweening.ShortcutExtensions.DOJump(_pizza.transform, pc.Vec3.UP.clone().clone().scale( 0.5 ).clone().scale( this.foodHolderOnTable.transform.childCount ).add( this.foodHolderOnTable.transform.position ), 10, 1, 0.5), DG.Tweening.Ease.Linear);
+                                        ($t = Singleton$1(GlobalInstance).Instance.gameManager).countToEndcard = ($t.countToEndcard + 1) | 0;
+
+                                        $enumerator.current = new UnityEngine.WaitForSeconds(this.timeReleaseBrick);
+                                        $step = 7;
+                                        return true;
+                                }
+                                case 7: {
                                     this.canRelease = true;
 
                                 }
@@ -6647,7 +6686,19 @@ if ( TRACE ) { TRACE( "PlayerController#IEReleaseBrick", this ); }
                 }));
                 return $enumerator;
             },
-            /*PlayerController.IEReleaseBrick end.*/
+            /*PlayerController.IEReleasePizza end.*/
+
+            /*PlayerController.OnCollisionExit start.*/
+            OnCollisionExit: function (collision) {
+if ( TRACE ) { TRACE( "PlayerController#OnCollisionExit", this ); }
+
+                if (Bridge.referenceEquals(collision.gameObject.tag, "Machine")) {
+                    this.canvasMess.SetActive(false);
+                }
+
+
+            },
+            /*PlayerController.OnCollisionExit end.*/
 
             /*PlayerController.OnTriggerExit start.*/
             OnTriggerExit: function (other) {
@@ -6664,8 +6715,14 @@ if ( TRACE ) { TRACE( "PlayerController#OnTriggerExit", this ); }
 if ( TRACE ) { TRACE( "PlayerController#OnTriggerStay", this ); }
 
                 if (Bridge.referenceEquals(other.gameObject.tag, "Table")) {
+                    this._table = other.gameObject.GetComponent(TableRegion);
+                    this.foodHolderOnTable = this._table.foodHolder;
                     this.ReleasePizza();
                 }
+                //if (other.gameObject.tag == "Table")
+                //{
+                //    ReleasePizza();
+                //}
             },
             /*PlayerController.OnTriggerStay end.*/
 
@@ -6710,6 +6767,25 @@ if ( TRACE ) { TRACE( "PlayerController#GetPizzaAgain", this ); }
 if ( TRACE ) { TRACE( "PlayerController#OnCollisionStay", this ); }
 
                 if (Bridge.referenceEquals(collision.gameObject.tag, "Machine") && this.canGetPizza) {
+                    if (!this.firstTouch) {
+                        this.firstTouch = true;
+                        Singleton$1(GlobalInstance).Instance.gameManager.guideMachine.SetActive(false);
+                        Singleton$1(GlobalInstance).Instance.gameManager.arrowGuideHolder.SetActive(true);
+                    }
+                    if (this.foodHolder.transform.childCount === 0) {
+                        if (this.velAxisX !== 0 || this.velAxisY !== 0) {
+                            this.animator.SetTrigger$1("RunCarry");
+                        } else {
+                            this.animator.SetTrigger$1("Carry");
+                        }
+
+                    }
+
+                    if (this.foodHolder.transform.childCount === 10) {
+                        this.canvasMess.SetActive(true);
+                        this.canGetPizza = true;
+                        return;
+                    }
                     var machine = collision.gameObject.GetComponent(MachineController);
                     var pizz = machine.GetPizza();
                     if (UnityEngine.GameObject.op_Equality(pizz, null)) {
@@ -6720,11 +6796,7 @@ if ( TRACE ) { TRACE( "PlayerController#OnCollisionStay", this ); }
                     this.GetPizza(pizz);
                     this.StartCoroutine$1(this.GetPizzaAgain());
                 }
-                if (Bridge.referenceEquals(collision.gameObject.tag, "Table")) {
-                    this._table = collision.gameObject.GetComponent(TableRegion);
-                    this.foodHolderOnTable = this._table.foodHolder;
-                    this.ReleasePizza();
-                }
+
             },
             /*PlayerController.OnCollisionStay end.*/
 
@@ -7180,7 +7252,11 @@ if ( TRACE ) { TRACE( "SingletonWithouMono$1#Preload", this ); }
         fields: {
             guest: null,
             numberPizza: 0,
-            foodHolder: null
+            foodHolder: null,
+            mess: null,
+            canvas: null,
+            guide: null,
+            startEat: false
         },
         ctors: {
             init: function () {
@@ -7190,28 +7266,38 @@ if ( TRACE ) { TRACE( "TableRegion#init", this ); }
             }
         },
         methods: {
-            /*TableRegion.Start start.*/
-            Start: function () {
-if ( TRACE ) { TRACE( "TableRegion#Start", this ); }
- },
-            /*TableRegion.Start end.*/
-
             /*TableRegion.IsFullOfPizza start.*/
             IsFullOfPizza: function () {
 if ( TRACE ) { TRACE( "TableRegion#IsFullOfPizza", this ); }
 
+                if (this.foodHolder.transform.childCount > 0 && !this.startEat) {
+                    this.guest.Eating();
+                }
                 return this.numberPizza === this.foodHolder.transform.childCount;
             },
             /*TableRegion.IsFullOfPizza end.*/
 
-            /*TableRegion.GetFood start.*/
-            GetFood: function (pizza) {
-if ( TRACE ) { TRACE( "TableRegion#GetFood", this ); }
+            /*TableRegion.OnTriggerEnter start.*/
+            OnTriggerEnter: function (other) {
+if ( TRACE ) { TRACE( "TableRegion#OnTriggerEnter", this ); }
 
-                pizza.transform.SetParent(this.foodHolder.transform);
-                pizza.transform.localPosition = pc.Vec3.UP.clone().clone().scale( 0.05 ).add( this.foodHolder.transform.GetChild(((this.foodHolder.transform.childCount - 2) | 0)).localPosition );
+                if (Bridge.referenceEquals(other.gameObject.tag, NameTag.Player)) {
+                    this.guide.SetActive(false);
+                }
             },
-            /*TableRegion.GetFood end.*/
+            /*TableRegion.OnTriggerEnter end.*/
+
+            /*TableRegion.UpdateMessServe start.*/
+            UpdateMessServe: function () {
+if ( TRACE ) { TRACE( "TableRegion#UpdateMessServe", this ); }
+
+                if (this.numberPizza === this.foodHolder.transform.childCount) {
+                    UnityEngine.Object.Instantiate$2(UnityEngine.GameObject, Singleton$1(GlobalInstance).Instance.gameManager.confenti, this.foodHolder.transform.position.$clone(), new pc.Quat().setFromEulerAngles_Unity( -90, 0, 0 ));
+                    this.canvas.SetActive(false);
+                }
+                this.mess.GetComponent(TMPro.TextMeshProUGUI).text = (Bridge.toString(this.foodHolder.transform.childCount) || "") + "/" + (Bridge.toString(this.numberPizza) || "");
+            },
+            /*TableRegion.UpdateMessServe end.*/
 
 
         }
@@ -10446,7 +10532,8 @@ if ( TRACE ) { TRACE( "GameManager2#inherits", this ); }
             btnEndcard: null,
             guideMachine: null,
             guide: null,
-            arrowGuideHolder: null
+            arrowGuideHolder: null,
+            confenti: null
         },
         methods: {
             /*GameManager2.Start start.*/
@@ -10481,8 +10568,9 @@ if ( TRACE ) { TRACE( "GameManager2#ShowEndcard", this ); }
                             switch ($step) {
                                 case 0: {
                                     this.endGame = true;
+                                        this.canvasJoyStick.SetActive(false);
                                         Luna.Unity.LifeCycle.GameEnded();
-                                        $enumerator.current = new UnityEngine.WaitForSeconds(1);
+                                        $enumerator.current = new UnityEngine.WaitForSeconds(0.5);
                                         $step = 1;
                                         return true;
                                 }
@@ -10554,6 +10642,7 @@ if ( TRACE ) { TRACE( "SoundManager#inherits", this ); }
             crashMoney: null,
             unlock: null,
             region: null,
+            getPizza: null,
             audioSource: null
         },
         methods: {
@@ -10564,6 +10653,14 @@ if ( TRACE ) { TRACE( "SoundManager#PlaySoundEnterRegion", this ); }
                 this.audioSource.PlayOneShot(this.region);
             },
             /*SoundManager.PlaySoundEnterRegion end.*/
+
+            /*SoundManager.PlaySoundGetPizza start.*/
+            PlaySoundGetPizza: function () {
+if ( TRACE ) { TRACE( "SoundManager#PlaySoundGetPizza", this ); }
+
+                this.audioSource.PlayOneShot(this.getPizza);
+            },
+            /*SoundManager.PlaySoundGetPizza end.*/
 
             /*SoundManager.PlaySoundCrashMoney start.*/
             PlaySoundCrashMoney: function () {
@@ -10624,7 +10721,7 @@ if ( TRACE ) { TRACE( "SoundManager#PlaySoundUnlock", this ); }
     /*DropMoney end.*/
 
     /*GuestController start.*/
-    $m("GuestController", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":2,"n":"SetAnim","t":8,"pi":[{"n":"state","pt":$n[0].Boolean,"ps":0}],"sn":"SetAnim","rt":$n[0].Void,"p":[$n[0].Boolean]},{"a":1,"n":"animator","t":4,"rt":$n[1].Animator,"sn":"animator"}]}; }, $n);
+    $m("GuestController", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"Awake","t":8,"sn":"Awake","rt":$n[0].Void},{"a":2,"n":"Eating","t":8,"sn":"Eating","rt":$n[0].Void},{"a":1,"n":"animator","t":4,"rt":$n[1].Animator,"sn":"animator"}]}; }, $n);
     /*GuestController end.*/
 
     /*LookAtCam start.*/
@@ -10636,11 +10733,11 @@ if ( TRACE ) { TRACE( "SoundManager#PlaySoundUnlock", this ); }
     /*MachineController end.*/
 
     /*PlayerController start.*/
-    $m("PlayerController", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"AnimIdle","t":8,"sn":"AnimIdle","rt":$n[0].Void},{"a":1,"n":"AnimRun","t":8,"sn":"AnimRun","rt":$n[0].Void},{"a":1,"n":"FixedUpdate","t":8,"sn":"FixedUpdate","rt":$n[0].Void},{"a":1,"n":"GetPizza","t":8,"pi":[{"n":"pizza","pt":$n[1].GameObject,"ps":0}],"sn":"GetPizza","rt":$n[0].Void,"p":[$n[1].GameObject]},{"a":1,"n":"GetPizzaAgain","t":8,"sn":"GetPizzaAgain","rt":$n[5].IEnumerator},{"a":1,"n":"IEReleaseBrick","t":8,"sn":"IEReleaseBrick","rt":$n[5].IEnumerator},{"a":1,"n":"IEResetSoundRun","t":8,"pi":[{"n":"time","pt":$n[0].Single,"ps":0}],"sn":"IEResetSoundRun","rt":$n[5].IEnumerator,"p":[$n[0].Single]},{"a":2,"n":"Init","t":8,"sn":"Init","rt":$n[0].Void},{"a":2,"n":"Move","t":8,"sn":"Move","rt":$n[0].Void},{"a":1,"n":"OnCollisionStay","t":8,"pi":[{"n":"collision","pt":$n[1].Collision,"ps":0}],"sn":"OnCollisionStay","rt":$n[0].Void,"p":[$n[1].Collision]},{"a":1,"n":"OnTriggerExit","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerExit","rt":$n[0].Void,"p":[$n[1].Collider]},{"a":1,"n":"OnTriggerStay","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerStay","rt":$n[0].Void,"p":[$n[1].Collider]},{"a":1,"n":"ReleasePizza","t":8,"sn":"ReleasePizza","rt":$n[0].Void},{"a":1,"n":"ResetSoundRun","t":8,"sn":"ResetSoundRun","rt":$n[0].Void},{"a":1,"n":"RotateFacing","t":8,"pi":[{"n":"directionFacing","pt":$n[1].Vector3,"ps":0}],"sn":"RotateFacing","rt":$n[0].Void,"p":[$n[1].Vector3]},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":1,"n":"_table","t":4,"rt":TableRegion,"sn":"_table"},{"a":1,"n":"a","t":4,"rt":$n[1].Coroutine,"sn":"a"},{"a":2,"n":"animator","t":4,"rt":$n[1].Animator,"sn":"animator"},{"a":1,"n":"canGetPizza","t":4,"rt":$n[0].Boolean,"sn":"canGetPizza","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"canMove","t":4,"rt":$n[0].Boolean,"sn":"canMove","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"canRelease","t":4,"rt":$n[0].Boolean,"sn":"canRelease","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"firstStop","t":4,"rt":$n[0].Boolean,"sn":"firstStop","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"flagAnim1","t":4,"rt":$n[0].Boolean,"sn":"flagAnim1","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"flagAnim2","t":4,"rt":$n[0].Boolean,"sn":"flagAnim2","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"foodHolder","t":4,"rt":$n[1].GameObject,"sn":"foodHolder"},{"a":2,"n":"foodHolderOnTable","t":4,"rt":$n[1].GameObject,"sn":"foodHolderOnTable"},{"a":1,"n":"isCarryPizza","t":4,"rt":$n[0].Boolean,"sn":"isCarryPizza","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"playSoundRun","t":4,"rt":$n[0].Boolean,"sn":"playSoundRun","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"rigid","t":4,"rt":$n[1].Rigidbody,"sn":"rigid"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"rotationSpeed","t":4,"rt":$n[0].Single,"sn":"rotationSpeed","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"speed","t":4,"rt":$n[0].Single,"sn":"speed","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"startTouch","t":4,"rt":$n[0].Boolean,"sn":"startTouch","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"timeReleaseBrick","t":4,"rt":$n[0].Single,"sn":"timeReleaseBrick","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"vectorMovingDirection","t":4,"rt":$n[1].Vector3,"sn":"vectorMovingDirection"},{"a":1,"n":"velAxisX","t":4,"rt":$n[0].Single,"sn":"velAxisX","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"velAxisY","t":4,"rt":$n[0].Single,"sn":"velAxisY","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}}]}; }, $n);
+    $m("PlayerController", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"AnimIdle","t":8,"sn":"AnimIdle","rt":$n[0].Void},{"a":1,"n":"AnimRun","t":8,"sn":"AnimRun","rt":$n[0].Void},{"a":1,"n":"FixedUpdate","t":8,"sn":"FixedUpdate","rt":$n[0].Void},{"a":1,"n":"GetPizza","t":8,"pi":[{"n":"pizza","pt":$n[1].GameObject,"ps":0}],"sn":"GetPizza","rt":$n[0].Void,"p":[$n[1].GameObject]},{"a":1,"n":"GetPizzaAgain","t":8,"sn":"GetPizzaAgain","rt":$n[5].IEnumerator},{"a":1,"n":"IEReleasePizza","t":8,"sn":"IEReleasePizza","rt":$n[5].IEnumerator},{"a":1,"n":"IEResetSoundRun","t":8,"pi":[{"n":"time","pt":$n[0].Single,"ps":0}],"sn":"IEResetSoundRun","rt":$n[5].IEnumerator,"p":[$n[0].Single]},{"a":2,"n":"Init","t":8,"sn":"Init","rt":$n[0].Void},{"a":2,"n":"Move","t":8,"sn":"Move","rt":$n[0].Void},{"a":1,"n":"OnCollisionExit","t":8,"pi":[{"n":"collision","pt":$n[1].Collision,"ps":0}],"sn":"OnCollisionExit","rt":$n[0].Void,"p":[$n[1].Collision]},{"a":1,"n":"OnCollisionStay","t":8,"pi":[{"n":"collision","pt":$n[1].Collision,"ps":0}],"sn":"OnCollisionStay","rt":$n[0].Void,"p":[$n[1].Collision]},{"a":1,"n":"OnTriggerExit","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerExit","rt":$n[0].Void,"p":[$n[1].Collider]},{"a":1,"n":"OnTriggerStay","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerStay","rt":$n[0].Void,"p":[$n[1].Collider]},{"a":1,"n":"ReleasePizza","t":8,"sn":"ReleasePizza","rt":$n[0].Void},{"a":1,"n":"ResetSoundRun","t":8,"sn":"ResetSoundRun","rt":$n[0].Void},{"a":1,"n":"RotateFacing","t":8,"pi":[{"n":"directionFacing","pt":$n[1].Vector3,"ps":0}],"sn":"RotateFacing","rt":$n[0].Void,"p":[$n[1].Vector3]},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[0].Void},{"a":1,"n":"_table","t":4,"rt":TableRegion,"sn":"_table"},{"a":1,"n":"a","t":4,"rt":$n[1].Coroutine,"sn":"a"},{"a":2,"n":"animator","t":4,"rt":$n[1].Animator,"sn":"animator"},{"a":1,"n":"canGetPizza","t":4,"rt":$n[0].Boolean,"sn":"canGetPizza","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"canMove","t":4,"rt":$n[0].Boolean,"sn":"canMove","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"canRelease","t":4,"rt":$n[0].Boolean,"sn":"canRelease","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"canSetAnim","t":4,"rt":$n[0].Boolean,"sn":"canSetAnim","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"canvasMess","t":4,"rt":$n[1].GameObject,"sn":"canvasMess"},{"a":1,"n":"firstStop","t":4,"rt":$n[0].Boolean,"sn":"firstStop","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"firstTouch","t":4,"rt":$n[0].Boolean,"sn":"firstTouch","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"firstTouch2","t":4,"rt":$n[0].Boolean,"sn":"firstTouch2","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"flagAnim1","t":4,"rt":$n[0].Boolean,"sn":"flagAnim1","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"flagAnim2","t":4,"rt":$n[0].Boolean,"sn":"flagAnim2","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"foodHolder","t":4,"rt":$n[1].GameObject,"sn":"foodHolder"},{"a":2,"n":"foodHolderOnTable","t":4,"rt":$n[1].GameObject,"sn":"foodHolderOnTable"},{"a":2,"n":"isCarryPizza","t":4,"rt":$n[0].Boolean,"sn":"isCarryPizza","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"playSoundRun","t":4,"rt":$n[0].Boolean,"sn":"playSoundRun","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"rigid","t":4,"rt":$n[1].Rigidbody,"sn":"rigid"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"rotationSpeed","t":4,"rt":$n[0].Single,"sn":"rotationSpeed","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"speed","t":4,"rt":$n[0].Single,"sn":"speed","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"startTouch","t":4,"rt":$n[0].Boolean,"sn":"startTouch","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"timeReleaseBrick","t":4,"rt":$n[0].Single,"sn":"timeReleaseBrick","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"vectorMovingDirection","t":4,"rt":$n[1].Vector3,"sn":"vectorMovingDirection"},{"a":1,"n":"velAxisX","t":4,"rt":$n[0].Single,"sn":"velAxisX","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":1,"n":"velAxisY","t":4,"rt":$n[0].Single,"sn":"velAxisY","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}}]}; }, $n);
     /*PlayerController end.*/
 
     /*TableRegion start.*/
-    $m("TableRegion", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"GetFood","t":8,"pi":[{"n":"pizza","pt":$n[1].GameObject,"ps":0}],"sn":"GetFood","rt":$n[0].Void,"p":[$n[1].GameObject]},{"a":2,"n":"IsFullOfPizza","t":8,"sn":"IsFullOfPizza","rt":$n[0].Boolean,"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":2,"n":"foodHolder","t":4,"rt":$n[1].GameObject,"sn":"foodHolder"},{"a":2,"n":"guest","t":4,"rt":GuestController,"sn":"guest"},{"a":2,"n":"numberPizza","t":4,"rt":$n[0].Int32,"sn":"numberPizza","box":function ($v) { return Bridge.box($v, System.Int32);}}]}; }, $n);
+    $m("TableRegion", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"IsFullOfPizza","t":8,"sn":"IsFullOfPizza","rt":$n[0].Boolean,"box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"OnTriggerEnter","t":8,"pi":[{"n":"other","pt":$n[1].Collider,"ps":0}],"sn":"OnTriggerEnter","rt":$n[0].Void,"p":[$n[1].Collider]},{"a":2,"n":"UpdateMessServe","t":8,"sn":"UpdateMessServe","rt":$n[0].Void},{"a":2,"n":"canvas","t":4,"rt":$n[1].GameObject,"sn":"canvas"},{"a":2,"n":"foodHolder","t":4,"rt":$n[1].GameObject,"sn":"foodHolder"},{"a":2,"n":"guest","t":4,"rt":GuestController,"sn":"guest"},{"a":2,"n":"guide","t":4,"rt":$n[1].GameObject,"sn":"guide"},{"a":2,"n":"mess","t":4,"rt":$n[1].GameObject,"sn":"mess"},{"a":2,"n":"numberPizza","t":4,"rt":$n[0].Int32,"sn":"numberPizza","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":1,"n":"startEat","t":4,"rt":$n[0].Boolean,"sn":"startEat","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}}]}; }, $n);
     /*TableRegion end.*/
 
     /*UnlockController start.*/
@@ -10660,11 +10757,11 @@ if ( TRACE ) { TRACE( "SoundManager#PlaySoundUnlock", this ); }
     /*GameManager1 end.*/
 
     /*GameManager2 start.*/
-    $m("GameManager2", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"InstallFullGame","t":8,"sn":"InstallFullGame","rt":$n[0].Void},{"a":2,"n":"ShowEndcard","t":8,"sn":"ShowEndcard","rt":$n[5].IEnumerator},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":2,"n":"arrowGuideHolder","t":4,"rt":$n[1].GameObject,"sn":"arrowGuideHolder"},{"a":2,"n":"btnEndcard","t":4,"rt":$n[1].GameObject,"sn":"btnEndcard"},{"a":2,"n":"canvasJoyStick","t":4,"rt":$n[1].GameObject,"sn":"canvasJoyStick"},{"a":2,"n":"countToEndcard","t":4,"rt":$n[0].Int32,"sn":"countToEndcard","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"endGame","t":4,"rt":$n[0].Boolean,"sn":"endGame","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"guide","t":4,"rt":$n[1].GameObject,"sn":"guide"},{"a":2,"n":"guideMachine","t":4,"rt":$n[1].GameObject,"sn":"guideMachine"},{"a":2,"n":"player","t":4,"rt":PlayerController,"sn":"player"},{"a":2,"n":"totalMoney","t":4,"rt":$n[0].Int32,"sn":"totalMoney","box":function ($v) { return Bridge.box($v, System.Int32);}}]}; }, $n);
+    $m("GameManager2", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"InstallFullGame","t":8,"sn":"InstallFullGame","rt":$n[0].Void},{"a":2,"n":"ShowEndcard","t":8,"sn":"ShowEndcard","rt":$n[5].IEnumerator},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[0].Void},{"a":2,"n":"arrowGuideHolder","t":4,"rt":$n[1].GameObject,"sn":"arrowGuideHolder"},{"a":2,"n":"btnEndcard","t":4,"rt":$n[1].GameObject,"sn":"btnEndcard"},{"a":2,"n":"canvasJoyStick","t":4,"rt":$n[1].GameObject,"sn":"canvasJoyStick"},{"a":2,"n":"confenti","t":4,"rt":$n[1].GameObject,"sn":"confenti"},{"a":2,"n":"countToEndcard","t":4,"rt":$n[0].Int32,"sn":"countToEndcard","box":function ($v) { return Bridge.box($v, System.Int32);}},{"a":2,"n":"endGame","t":4,"rt":$n[0].Boolean,"sn":"endGame","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"guide","t":4,"rt":$n[1].GameObject,"sn":"guide"},{"a":2,"n":"guideMachine","t":4,"rt":$n[1].GameObject,"sn":"guideMachine"},{"a":2,"n":"player","t":4,"rt":PlayerController,"sn":"player"},{"a":2,"n":"totalMoney","t":4,"rt":$n[0].Int32,"sn":"totalMoney","box":function ($v) { return Bridge.box($v, System.Int32);}}]}; }, $n);
     /*GameManager2 end.*/
 
     /*SoundManager start.*/
-    $m("SoundManager", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"PlaySoundCrashMoney","t":8,"sn":"PlaySoundCrashMoney","rt":$n[0].Void},{"a":2,"n":"PlaySoundEnterRegion","t":8,"sn":"PlaySoundEnterRegion","rt":$n[0].Void},{"a":2,"n":"PlaySoundUnlock","t":8,"sn":"PlaySoundUnlock","rt":$n[0].Void},{"a":2,"n":"audioSource","t":4,"rt":$n[1].AudioSource,"sn":"audioSource"},{"a":2,"n":"crashMoney","t":4,"rt":$n[1].AudioClip,"sn":"crashMoney"},{"a":2,"n":"region","t":4,"rt":$n[1].AudioClip,"sn":"region"},{"a":2,"n":"unlock","t":4,"rt":$n[1].AudioClip,"sn":"unlock"}]}; }, $n);
+    $m("SoundManager", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"PlaySoundCrashMoney","t":8,"sn":"PlaySoundCrashMoney","rt":$n[0].Void},{"a":2,"n":"PlaySoundEnterRegion","t":8,"sn":"PlaySoundEnterRegion","rt":$n[0].Void},{"a":2,"n":"PlaySoundGetPizza","t":8,"sn":"PlaySoundGetPizza","rt":$n[0].Void},{"a":2,"n":"PlaySoundUnlock","t":8,"sn":"PlaySoundUnlock","rt":$n[0].Void},{"a":2,"n":"audioSource","t":4,"rt":$n[1].AudioSource,"sn":"audioSource"},{"a":2,"n":"crashMoney","t":4,"rt":$n[1].AudioClip,"sn":"crashMoney"},{"a":2,"n":"getPizza","t":4,"rt":$n[1].AudioClip,"sn":"getPizza"},{"a":2,"n":"region","t":4,"rt":$n[1].AudioClip,"sn":"region"},{"a":2,"n":"unlock","t":4,"rt":$n[1].AudioClip,"sn":"unlock"}]}; }, $n);
     /*SoundManager end.*/
 
     /*TypeDestroy start.*/

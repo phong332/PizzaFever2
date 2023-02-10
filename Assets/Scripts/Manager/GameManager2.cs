@@ -13,7 +13,7 @@ public class GameManager2 : Singleton<GameManager2>
     public GameObject guideMachine;
     public GameObject guide;
     public GameObject arrowGuideHolder;
-
+    public GameObject confenti;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,8 +27,9 @@ public class GameManager2 : Singleton<GameManager2>
     public IEnumerator ShowEndcard()
     {
         endGame = true;
+        canvasJoyStick.SetActive(false);
         Luna.Unity.LifeCycle.GameEnded();
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.5f);
         btnEndcard.SetActive(true);
     }
 }

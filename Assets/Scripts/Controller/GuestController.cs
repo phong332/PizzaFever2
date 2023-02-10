@@ -9,9 +9,8 @@ public class GuestController : MonoBehaviour
     {
         animator = GetComponent<Animator>();
     }
-
-    public void SetAnim(bool state)
+    public void Eating()
     {
-        animator.SetBool("Eat", state);
+        animator.SetBool("Eat", true);
     }
 }

@@ -1,0 +1,203 @@
+{
+  "BuildID": "21fe08dc-1ae7-4067-b224-af0f93b55282",
+  "Command": "project:build",
+  "ProjectID": "5075b2ff-2ea4-4091-a6fa-d23e0e243623",
+  "ProjectStateHash": "4b20722b343e4a341ed176a9573dd85fedd3f6aabd8bb5f4eddc23edffc3fac4",
+  "StageCompletedAt": 3,
+  "EarliestFatalError": 0,
+  "StartTime": 1676005991799,
+  "EndTime": 1676006033756,
+  "PlaygroundUserID": 8338,
+  "OperatingSystem": "win32",
+  "UnityPackageID": null,
+  "TargetPlatform": "develop",
+  "UnityVersion": "2020.3.43f1\r",
+  "LunaVersion": "4.5.0",
+  "LogCount": 8,
+  "Logs": [
+    {
+      "LogID": "47ee5109-1771-485e-9368-de0f206f7345",
+      "Order": 7,
+      "Timestamp": 1676006034414,
+      "Stage": 3,
+      "ErrorType": 3,
+      "ErrorCode": "LP3007",
+      "Description": "You are not using any custom events",
+      "Details": [
+        "You are not using any custom events. It is recommended to use custom events to have a better understanding of the playable."
+      ],
+      "DescriptionValues": [
+        ""
+      ],
+      "DetailsValues": [
+        ""
+      ],
+      "LogCount": 1,
+      "LinePosition": null,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "a4d92e78-9365-49ca-b264-de3bdb9a29b4",
+      "Order": 7,
+      "Timestamp": 1676006034414,
+      "Stage": 3,
+      "ErrorType": 3,
+      "ErrorCode": "LP3011",
+      "Description": "You are not using any LunaPlaygroundFields attributes.",
+      "Details": [
+        "You are not using any LunaPlaygroundFields attributes, it allows you to configure your playable to different concepts to find the best variation, which can drastically improve playable performance on all ad networks."
+      ],
+      "DescriptionValues": null,
+      "DetailsValues": null,
+      "LogCount": 1,
+      "LinePosition": null,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "df492996-9737-477b-8807-fca21d3c2442",
+      "Order": 0,
+      "Timestamp": 1676006006439,
+      "Stage": 1,
+      "ErrorType": 0,
+      "ErrorCode": "LP1030",
+      "Description": "TMP Font Asset uses unsupported 'Atlas Population Mode'",
+      "Details": [
+        "TMP Font Asset '{0}' uses Atlas Population Mode '{1}' which is not supported"
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [
+        "LiberationSans SDF - Fallback",
+        "Dynamic"
+      ],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "4f061e9e-e0a2-412d-b58d-8ed0f4ef8d41",
+      "Order": 1,
+      "Timestamp": 1676006011016,
+      "Stage": 1,
+      "ErrorType": 0,
+      "ErrorCode": "LP1006",
+      "Description": "Linear color space is not supported",
+      "Details": [
+        "Due to compatibility reasons, Luna is only able to use Gamma color space for rendering. Please adjust your player settings."
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "966519a4-87f8-412e-9907-55dcc8a3d554",
+      "Order": 2,
+      "Timestamp": 1676006011016,
+      "Stage": 1,
+      "ErrorType": 2,
+      "ErrorCode": "LP1014",
+      "Description": "We recommend running Runtime Analysis to find and remove all unused code",
+      "Details": [
+        "Navigate to the Runtime Analysis > Code tab to enable code stripping"
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "86f9073f-5dfe-46cc-8d3b-b230ff935b45",
+      "Order": 3,
+      "Timestamp": 1676006011060,
+      "Stage": 1,
+      "ErrorType": 0,
+      "ErrorCode": "LP1032",
+      "Description": "Package(s) is not supported in Luna",
+      "Details": [
+        "Currently package(s) {0} is not supported in the Luna. We recommend you to remove it and workaround it's functionality."
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [
+        "com.unity.timeline"
+      ],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "D:/GitHub/PizzaFever2/Packages\\manifest.json",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "03b705a5-16b7-4f5b-998f-60f8963db068",
+      "Order": 4,
+      "Timestamp": 1676006011060,
+      "Stage": 1,
+      "ErrorType": 3,
+      "ErrorCode": "LP1002",
+      "Description": "Repeat wrap mode used on a texture with non power-of-two dimensions, this might not be rendered correctly.",
+      "Details": [
+        "Repeat wrap mode used on 'Pizza' texture at 'Assets/Assets/UI/Item Icon/Pizza.png' with non power-of-two dimensions, this might not be rendered correctly."
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [
+        "Pizza",
+        "Assets/Assets/UI/Item Icon/Pizza.png"
+      ],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "Assets/Assets/UI/Item Icon/Pizza.png",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "00b5b5ef-6bbf-41bb-8035-cc869c479896",
+      "Order": 5,
+      "Timestamp": 1676006011060,
+      "Stage": 1,
+      "ErrorType": 2,
+      "ErrorCode": "LP1010",
+      "Description": "Looks like a collider was scaled, this might affect performance.",
+      "Details": [
+        "Plane",
+        "Cube",
+        "Cube (1)",
+        "Cube (2)",
+        "Cube (3)",
+        "Cube (4)",
+        "Cube (5)",
+        "Machine",
+        "Table",
+        "Table1",
+        "Table (1)",
+        "Table (3)",
+        "imposter_rigged02"
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [],
+      "LogCount": 13,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    }
+  ]
+}

@@ -1,24 +1,38 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using TMPro;
 public class TableRegion : MonoBehaviour
 {
     public GuestController guest;
     public int numberPizza = 0;
     public GameObject foodHolder;
-    private void Start()
-    {
-    }
+    public GameObject mess;
+    public GameObject canvas;
+    public GameObject guide;
+    bool startEat;
     public bool IsFullOfPizza()
     {
+        if (foodHolder.transform.childCount > 0 && !startEat)
+        {
+            guest.Eating();
+        }
         return numberPizza == foodHolder.transform.childCount;
     }
-
-    void GetFood(GameObject pizza)
+    private void OnTriggerEnter(Collider other)
     {
-        pizza.transform.SetParent(foodHolder.transform);
-        pizza.transform.localPosition = Vector3.up * 0.05f + foodHolder.transform.GetChild(foodHolder.transform.childCount - 2).localPosition;
+        if (other.gameObject.tag == NameTag.Player)
+        {
+            guide.SetActive(false);
+        }
     }
-
+    public void UpdateMessServe()
+    {
+        if (numberPizza == foodHolder.transform.childCount)
+        {
+            Instantiate(GlobalInstance.Instance.gameManager.confenti, foodHolder.transform.position, Quaternion.Euler(-90, 0, 0));
+            canvas.SetActive(false);
+        }
+        mess.GetComponent<TextMeshProUGUI>().text = foodHolder.transform.childCount.ToString() + "/" + numberPizza.ToString();
+    }
 }

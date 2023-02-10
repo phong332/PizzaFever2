@@ -1,211 +1,215 @@
-report@config:load 77.45
+report@config:load 69.80
 Authorized using stored user info.
-report@account:authorize 7.88
+report@account:authorize 12.44
 stderr: 'rm' is not recognized as an internal or external command,
 operable program or batch file.
 
-Exporting assets from Unity..............
+Exporting assets from Unity......................
 
 [ Stage1 ] Assets exported from Unity and staged for further processing
-report@unity:export 11108.93
-report@config:load 30.28
-Using Z:/Github/PizzaFever/PizzaFever/Assets/Assets/UI/Fonts/SVN-BANGO.OTF file to generate an atlas for SVN-BANGO[18984] font
+report@unity:export 19170.32
+report@config:load 19.44
+Using D:/GitHub/PizzaFever2/Assets/Assets/UI/Fonts/SVN-BANGO.OTF file to generate an atlas for SVN-BANGO[19338] font
   Using alphabet  §1234567890-=qwertyuiop[]asdfghjkl;'\`zxcvbnm,./±!@#$%^&*()_+QWERTYUIOP{}ASDFGHJKL:"|~ZXCVBNM<>?
-Using Z:/Github/PizzaFever/PizzaFever/Assets/TextMesh Pro/Fonts/LiberationSans.ttf file to generate an atlas for LiberationSans[19222] font
+Using D:/GitHub/PizzaFever2/Assets/TextMesh Pro/Fonts/LiberationSans.ttf file to generate an atlas for LiberationSans[19652] font
   Using alphabet  §1234567890-=qwertyuiop[]asdfghjkl;'\`zxcvbnm,./±!@#$%^&*()_+QWERTYUIOP{}ASDFGHJKL:"|~ZXCVBNM<>?
-Combined 97 glyphs into bitmap texture at Z:/Github/PizzaFever/PizzaFever/LunaTemp/stage1/tmp/fonts/LiberationSans-19222/output_0.png (56kb)
-Combined 97 glyphs into bitmap texture at Z:/Github/PizzaFever/PizzaFever/LunaTemp/stage1/tmp/fonts/SVN-BANGO-18984/output_0.png (66kb)
+Combined 97 glyphs into bitmap texture at D:/GitHub/PizzaFever2/LunaTemp/stage1/tmp/fonts/SVN-BANGO-19338/output_0.png (66kb)
+Combined 97 glyphs into bitmap texture at D:/GitHub/PizzaFever2/LunaTemp/stage1/tmp/fonts/LiberationSans-19652/output_0.png (56kb)
 Found custom rules for sound Assets/Casual-Level-LOOP-mp3cutnet.mp3
   {"channels":1,"startTime":"00:00.000","endTime":"00:00.000","lengthInSeconds":0,"bitrate":128,"script":"","ext":"","name":"Assets/Casual-Level-LOOP-mp3cutnet.mp3","isOverride":true}
+Found custom rules for texture Assets/Assets/UI/Fonts/SVN-BANGO SDF 2.asset
+  {"maxWidth":512,"maxHeight":512,"format":"png32","compression":"none","quality":65,"script":"","ext":"","name":"Assets/Assets/UI/Fonts/SVN-BANGO SDF 2.asset","isOverride":true}
+Found custom rules for texture Assets/Assets/UI/Fonts/SVN-BANGO SDF.asset
+  {"maxWidth":512,"maxHeight":512,"format":"png32","compression":"none","quality":65,"script":"","ext":"","name":"Assets/Assets/UI/Fonts/SVN-BANGO SDF.asset","isOverride":true}
 Found custom rules for texture Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
   {"maxWidth":512,"maxHeight":512,"format":"png32","compression":"none","quality":65,"script":"","ext":"","name":"Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset","isOverride":true}
 Found custom rules for texture Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
   {"maxWidth":512,"maxHeight":512,"format":"png32","compression":"none","quality":65,"script":"","ext":"","name":"Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset","isOverride":true}
-Found custom rules for texture Assets/Assets/UI/Fonts/SVN-BANGO SDF.asset
-  {"maxWidth":512,"maxHeight":512,"format":"png32","compression":"none","quality":65,"script":"","ext":"","name":"Assets/Assets/UI/Fonts/SVN-BANGO SDF.asset","isOverride":true}
-Found custom rules for texture Assets/Assets/UI/Fonts/SVN-BANGO SDF 2.asset
-  {"maxWidth":512,"maxHeight":512,"format":"png32","compression":"none","quality":65,"script":"","ext":"","name":"Assets/Assets/UI/Fonts/SVN-BANGO SDF 2.asset","isOverride":true}
 Resources:
 {"unity.preloader.icon":"resources/unity.preloader.icon.jpg"}
-report@assets:stage2 4266.44
-report@assets:stage3 544.45
+report@assets:stage2 5310.16
+report@assets:stage3 481.29
 [ Stage2 ] Assets postprocessed and bundled successfully
-report@config:unity 0.54
-report@config:load 164.97
-report@config:unity 1.20
-report@code:compose 1402.54
+report@config:unity 0.24
+report@config:load 63.54
+report@config:unity 2.57
+report@code:compose 503.32
 Authorized using stored user info.
-report@account:authorize 4.58
-Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
-Copyright (C) Microsoft Corporation. All rights reserved.
+report@account:authorize 4.79
+MSBuild version 17.3.1+2badb37d1 for .NET Framework
 
+Build started 2/10/2023 12:13:38 PM.
 
-Build started 9/2/2023 6:28:42 PM.
-
-Project "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" on node 1 (Rebuild target(s)).
+Project "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" on node 1 (Rebuild target(s)).
 
 CoreClean:
-  Deleting file "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.dll".
+  Deleting file "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.dll".
 
-  Deleting file "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.pdb".
+  Deleting file "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.pdb".
 
-  Deleting file "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.dll".
+  Deleting file "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.dll".
 
-  Deleting file "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.dll".
+  Deleting file "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.dll".
 
-  Deleting file "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.dll".
+  Deleting file "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.dll".
 
-  Deleting file "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\DOTween.dll".
+  Deleting file "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\DOTween.dll".
 
-  Deleting file "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.dll".
+  Deleting file "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.dll".
 
-  Deleting file "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.dll".
+  Deleting file "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.dll".
 
-  Deleting file "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.dll".
+  Deleting file "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.dll".
 
-  Deleting file "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.dll".
+  Deleting file "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.dll".
 
-  Deleting file "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.dll".
+  Deleting file "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.dll".
 
-  Deleting file "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\TextMeshPro.dll".
+  Deleting file "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\TextMeshPro.dll".
 
-  Deleting file "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.dll".
+  Deleting file "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.dll".
 
-  Deleting file "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UI.dll".
+  Deleting file "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UI.dll".
 
-  Deleting file "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UniversalRenderPipeline.dll".
+  Deleting file "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UniversalRenderPipeline.dll".
 
-  Deleting file "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.xml".
+  Deleting file "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.xml".
 
-  Deleting file "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.xml".
+  Deleting file "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.xml".
 
-  Deleting file "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.xml".
+  Deleting file "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.xml".
 
-  Deleting file "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.xml".
+  Deleting file "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.xml".
 
-  Deleting file "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.xml".
+  Deleting file "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.xml".
 
-  Deleting file "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.xml".
+  Deleting file "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.xml".
 
-  Deleting file "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.xml".
+  Deleting file "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.xml".
 
-  Deleting file "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.xml".
+  Deleting file "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.xml".
 
-  Deleting file "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.AssemblyReference.cache".
+  Deleting file "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.AssemblyReference.cache".
 
-  Deleting file "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.CoreCompileInputs.cache".
+  Deleting file "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.CoreCompileInputs.cache".
 
-  Deleting file "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.CopyComplete".
+  Deleting file "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.CopyComplete".
 
-  Deleting file "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\obj\Debug\UnityScriptsCompiler.dll".
+  Deleting file "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\obj\Debug\UnityScriptsCompiler.dll".
 
-  Deleting file "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\obj\Debug\UnityScriptsCompiler.pdb".
+  Deleting file "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\obj\Debug\UnityScriptsCompiler.pdb".
 
 GenerateTargetFrameworkMonikerAttribute:
 Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
 
 CoreCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Roslyn\csc.exe /noconfig /nowarn:CS0626,1701,1702 /fullpaths /nostdlib+ /errorreport:prompt /warn:4 /define:UNITY_LUNA;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_2020;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2020_3;UNITY_2020_3_43 /highentropyva+ /reference:C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.26-luna\lib\net40\Bridge.dll /reference:C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.dll /reference:C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.dll /reference:C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\packages\DOTween.1.2.235\lib\net40\DOTween.dll /reference:C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.dll /reference:C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.dll /reference:C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.dll /reference:C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.dll /reference:C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.dll /reference:C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\packages\com.unity.textmeshpro\3.0.6\TextMeshPro.dll /reference:C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\Vendor\UnityEngine.dll /reference:C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\packages\com.unity.ui\1.2.1\UnityEngine.UI.dll /reference:C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\packages\com.unity.urp\7.6\UnityEngine.UniversalRenderPipeline.dll /debug+ /debug:full /optimize- /out:obj\Debug\UnityScriptsCompiler.dll /subsystemversion:6.00 /target:library /utf8output /langversion:7.2 Z:\Github\PizzaFever\PizzaFever\Assets\DOTween_1_2_632\DOTween\Modules\DOTweenModuleAudio.cs Z:\Github\PizzaFever\PizzaFever\Assets\DOTween_1_2_632\DOTween\Modules\DOTweenModuleEPOOutline.cs Z:\Github\PizzaFever\PizzaFever\Assets\DOTween_1_2_632\DOTween\Modules\DOTweenModulePhysics.cs Z:\Github\PizzaFever\PizzaFever\Assets\DOTween_1_2_632\DOTween\Modules\DOTweenModulePhysics2D.cs Z:\Github\PizzaFever\PizzaFever\Assets\DOTween_1_2_632\DOTween\Modules\DOTweenModuleSprite.cs Z:\Github\PizzaFever\PizzaFever\Assets\DOTween_1_2_632\DOTween\Modules\DOTweenModuleUI.cs Z:\Github\PizzaFever\PizzaFever\Assets\DOTween_1_2_632\DOTween\Modules\DOTweenModuleUnityVersion.cs Z:\Github\PizzaFever\PizzaFever\Assets\DOTween_1_2_632\DOTween\Modules\DOTweenModuleUtils.cs "Z:\Github\PizzaFever\PizzaFever\Assets\Epic Toon FX\Demo\ParticleEffectsShowcase\Scripts\ParticleEffectsLibrary.cs" "Z:\Github\PizzaFever\PizzaFever\Assets\Epic Toon FX\Demo\ParticleEffectsShowcase\Scripts\PEButtonScript.cs" "Z:\Github\PizzaFever\PizzaFever\Assets\Epic Toon FX\Demo\ParticleEffectsShowcase\Scripts\PEDestoryTimed.cs" "Z:\Github\PizzaFever\PizzaFever\Assets\Epic Toon FX\Demo\ParticleEffectsShowcase\Scripts\UICanvasManager.cs" "Z:\Github\PizzaFever\PizzaFever\Assets\Epic Toon FX\Demo\Scripts\ETFXButtonScript.cs" "Z:\Github\PizzaFever\PizzaFever\Assets\Epic Toon FX\Demo\Scripts\ETFXFireProjectile.cs" "Z:\Github\PizzaFever\PizzaFever\Assets\Epic Toon FX\Demo\Scripts\ETFXLoopScript.cs" "Z:\Github\PizzaFever\PizzaFever\Assets\Epic Toon FX\Demo\Scripts\ETFXMouseOrbit.cs" "Z:\Github\PizzaFever\PizzaFever\Assets\Epic Toon FX\Demo\Scripts\ETFXProjectileScript.cs" "Z:\Github\PizzaFever\PizzaFever\Assets\Epic Toon FX\Demo\Scripts\ETFXSceneManager.cs" "Z:\Github\PizzaFever\PizzaFever\Assets\Epic Toon FX\Demo\Scripts\ETFXTarget.cs" "Z:\Github\PizzaFever\PizzaFever\Assets\Epic Toon FX\Scripts\ETFXLightFade.cs" "Z:\Github\PizzaFever\PizzaFever\Assets\Epic Toon FX\Scripts\ETFXPitchRandomizer.cs" "Z:\Github\PizzaFever\PizzaFever\Assets\Epic Toon FX\Scripts\ETFXRotation.cs" Z:\Github\P
-izzaFever\PizzaFever\Assets\Scripts\Controller\DropMoney.cs Z:\Github\PizzaFever\PizzaFever\Assets\Scripts\Controller\GuestController.cs Z:\Github\PizzaFever\PizzaFever\Assets\Scripts\Controller\LookAtCam.cs Z:\Github\PizzaFever\PizzaFever\Assets\Scripts\Controller\MachineController.cs Z:\Github\PizzaFever\PizzaFever\Assets\Scripts\Controller\PlayerController.cs Z:\Github\PizzaFever\PizzaFever\Assets\Scripts\Controller\TableRegion.cs Z:\Github\PizzaFever\PizzaFever\Assets\Scripts\Controller\UnlockController.cs Z:\Github\PizzaFever\PizzaFever\Assets\Scripts\LunaPool\LunaPool.cs Z:\Github\PizzaFever\PizzaFever\Assets\Scripts\Manager\CameraController.cs Z:\Github\PizzaFever\PizzaFever\Assets\Scripts\Manager\GameManager1.cs Z:\Github\PizzaFever\PizzaFever\Assets\Scripts\Manager\GameManager2.cs Z:\Github\PizzaFever\PizzaFever\Assets\Scripts\Manager\SoundManager.cs Z:\Github\PizzaFever\PizzaFever\Assets\Scripts\Utility\AutoDestroy.cs Z:\Github\PizzaFever\PizzaFever\Assets\Scripts\Utility\AutoDestructor.cs Z:\Github\PizzaFever\PizzaFever\Assets\Scripts\Utility\DefineHelper.cs Z:\Github\PizzaFever\PizzaFever\Assets\Scripts\Utility\EventDispatcher\EventDispatcher.cs Z:\Github\PizzaFever\PizzaFever\Assets\Scripts\Utility\GlobalInstance.cs Z:\Github\PizzaFever\PizzaFever\Assets\Scripts\Utility\HelperUtility.cs Z:\Github\PizzaFever\PizzaFever\Assets\Scripts\Utility\RotateObject.cs Z:\Github\PizzaFever\PizzaFever\Assets\Scripts\Utility\SimplePool.cs Z:\Github\PizzaFever\PizzaFever\Assets\Scripts\Utility\Singleton.cs Z:\Github\PizzaFever\PizzaFever\Assets\Scripts\Utility\VectorUlti.cs "Z:\Github\PizzaFever\PizzaFever\Assets\Ultimate Joystick\_Examples\Spaceship Example\Scripts\AsteroidController.cs" "Z:\Github\PizzaFever\PizzaFever\Assets\Ultimate Joystick\_Examples\Spaceship Example\Scripts\GameManager.cs" "Z:\Github\PizzaFever\PizzaFever\Assets\Ultimate Joystick\_Examples\Spaceship Example\Scripts\PlayerController.cs" "Z:\Github\PizzaFever\PizzaFever\Assets\Ultimate Joystick\Scripts\UltimateJoystick.cs" "Z:\Github\PizzaFever\PizzaFever\Assets\Ultimate Joystick\Scripts\UltimateJoystickScreenSizeUpdater.cs" Properties/AssemblyInfo.cs Sources/OtherDummyScript.cs "obj\Debug\.NETFramework,Version=v4.7.AssemblyAttributes.cs"
+  C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Roslyn\csc.exe /noconfig /nowarn:CS0626,1701,1702 /fullpaths /nostdlib+ /errorreport:prompt /warn:4 /define:UNITY_LUNA;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_2020;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2020_3;UNITY_2020_3_43 /highentropyva+ /reference:D:\luna\4.5.0\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.26-luna\lib\net40\Bridge.dll /reference:D:\luna\4.5.0\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.dll /reference:D:\luna\4.5.0\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.dll /reference:D:\luna\4.5.0\pipeline\templates\LunaCompiler\packages\DOTween.1.2.235\lib\net40\DOTween.dll /reference:D:\luna\4.5.0\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.dll /reference:D:\luna\4.5.0\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.dll /reference:D:\luna\4.5.0\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.dll /reference:D:\luna\4.5.0\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.dll /reference:D:\luna\4.5.0\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.dll /reference:D:\luna\4.5.0\pipeline\templates\LunaCompiler\packages\com.unity.textmeshpro\3.0.6\TextMeshPro.dll /reference:D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\Vendor\UnityEngine.dll /reference:D:\luna\4.5.0\pipeline\templates\LunaCompiler\packages\com.unity.ui\1.2.1\UnityEngine.UI.dll /reference:D:\luna\4.5.0\pipeline\templates\LunaCompiler\packages\com.unity.urp\7.6\UnityEngine.UniversalRenderPipeline.dll /debug+ /debug:full /optimize- /out:obj\Debug\UnityScriptsCompiler.dll /subsystemversion:6.00 /target:library /utf8output /langversion:7.2 D:\GitHub\PizzaFever2\Assets\DOTween_1_2_632\DOTween\Modules\DOTweenModuleAudio.cs D:\GitHub\PizzaFever2\Assets\DOTween_1_2_632\DOTween\Modules\DOTweenModuleEPOOutline.cs D:\GitHub\PizzaFever2\Assets\DOTween_1_2_632\DOTween\Modules\DOTweenModulePhysics.cs D:\GitHub\PizzaFever2\Assets\DOTween_1_2_632\DOTween\Modules\DOTweenModulePhysics2D.cs D:\GitHub\PizzaFever2\Assets\DOTween_1_2_632\DOTween\Modules\DOTweenModuleSprite.cs D:\GitHub\PizzaFever2\Assets\DOTween_1_2_632\DOTween\Modules\DOTweenModuleUI.cs D:\GitHub\PizzaFever2\Assets\D
+OTween_1_2_632\DOTween\Modules\DOTweenModuleUnityVersion.cs D:\GitHub\PizzaFever2\Assets\DOTween_1_2_632\DOTween\Modules\DOTweenModuleUtils.cs "D:\GitHub\PizzaFever2\Assets\Epic Toon FX\Demo\ParticleEffectsShowcase\Scripts\ParticleEffectsLibrary.cs" "D:\GitHub\PizzaFever2\Assets\Epic Toon FX\Demo\ParticleEffectsShowcase\Scripts\PEButtonScript.cs" "D:\GitHub\PizzaFever2\Assets\Epic Toon FX\Demo\ParticleEffectsShowcase\Scripts\PEDestoryTimed.cs" "D:\GitHub\PizzaFever2\Assets\Epic Toon FX\Demo\ParticleEffectsShowcase\Scripts\UICanvasManager.cs" "D:\GitHub\PizzaFever2\Assets\Epic Toon FX\Demo\Scripts\ETFXButtonScript.cs" "D:\GitHub\PizzaFever2\Assets\Epic Toon FX\Demo\Scripts\ETFXFireProjectile.cs" "D:\GitHub\PizzaFever2\Assets\Epic Toon FX\Demo\Scripts\ETFXLoopScript.cs" "D:\GitHub\PizzaFever2\Assets\Epic Toon FX\Demo\Scripts\ETFXMouseOrbit.cs" "D:\GitHub\PizzaFever2\Assets\Epic Toon FX\Demo\Scripts\ETFXProjectileScript.cs" "D:\GitHub\PizzaFever2\Assets\Epic Toon FX\Demo\Scripts\ETFXSceneManager.cs" "D:\GitHub\PizzaFever2\Assets\Epic Toon FX\Demo\Scripts\ETFXTarget.cs" "D:\GitHub\PizzaFever2\Assets\Epic Toon FX\Scripts\ETFXLightFade.cs" "D:\GitHub\PizzaFever2\Assets\Epic Toon FX\Scripts\ETFXPitchRandomizer.cs" "D:\GitHub\PizzaFever2\Assets\Epic Toon FX\Scripts\ETFXRotation.cs" D:\GitHub\PizzaFever2\Assets\Scripts\Controller\DropMoney.cs D:\GitHub\PizzaFever2\Assets\Scripts\Controller\GuestController.cs D:\GitHub\PizzaFever2\Assets\Scripts\Controller\LookAtCam.cs D:\GitHub\PizzaFever2\Assets\Scripts\Controller\MachineController.cs D:\GitHub\PizzaFever2\Assets\Scripts\Controller\PlayerController.cs D:\GitHub\PizzaFever2\Assets\Scripts\Controller\TableRegion.cs D:\GitHub\PizzaFever2\Assets\Scripts\Controller\UnlockController.cs D:\GitHub\PizzaFever2\Assets\Scripts\LunaPool\LunaPool.cs D:\GitHub\PizzaFever2\Assets\Scripts\Manager\CameraController.cs D:\GitHub\PizzaFever2\Assets\Scripts\Manager\GameManager1.cs D:\GitHub\PizzaFever2\Assets\Scripts\Manager\GameManager2.cs D:\GitHub\PizzaFever2\Assets\Scripts\Manager\SoundManager.cs D:\GitHub\PizzaFever2\Assets\Scripts\Utility\AutoDestroy.cs D:\GitHub\PizzaFever2\Assets\Scripts\Utility\AutoDestructor.cs D:\GitHub\PizzaFever2\Assets\Scripts\Utility\DefineHelper.cs D:\GitHub\PizzaFever2\Assets\Scripts\Utility\EventDispatcher\EventDispatcher.cs D:\GitHub\PizzaFever2\Assets\Scripts\Utility\GlobalInstance.cs D:\GitHub\PizzaFever2\Assets\Scripts\Utility\HelperUtility.cs D:\GitHub\PizzaFever2\Assets\Scripts\Utility\RotateObject.cs D:\GitHub\PizzaFever2\Assets\Scripts\Utility\SimplePool.cs D:\GitHub\PizzaFever2\Assets\Scripts\Utility\Singleton.cs D:\GitHub\PizzaFever2\Assets\Scripts\Utility\VectorUlti.cs "D:\GitHub\PizzaFever2\Assets\Ultimate Joystick\_Examples\Spaceship Example\Scripts\AsteroidController.cs" "D:\GitHub\PizzaFever2\Assets\Ultimate Joystick\_Examples\Spaceship Example\Scripts\GameManager.cs" "D:\GitHub\PizzaFever2\Assets\Ultimate Joystick\_Examples\Spaceship Example\Scripts\PlayerController.cs" "D:\GitHub\PizzaFever2\Assets\Ultimate Joystick\Scripts\UltimateJoystick.cs" "D:\GitHub\PizzaFever2\Assets\Ultimate Joystick\Scripts\UltimateJoystickScreenSizeUpdater.cs" Properties/AssemblyInfo.cs Sources/OtherDummyScript.cs "obj\Debug\.NETFramework,Version=v4.7.AssemblyAttributes.cs"
 
-Z:\Github\PizzaFever\PizzaFever\Assets\Scripts\Controller\PlayerController.cs(162,28): warning CS0649: Field 'PlayerController.timeReleaseBrick' is never assigned to, and will always have its default value 0 [C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+D:\GitHub\PizzaFever2\Assets\Scripts\Utility\RotateObject.cs(7,36): warning CS0649: Field 'RotateObject.duration' is never assigned to, and will always have its default value 0 [D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
-Z:\Github\PizzaFever\PizzaFever\Assets\Scripts\Controller\PlayerController.cs(10,28): warning CS0649: Field 'PlayerController.speed' is never assigned to, and will always have its default value 0 [C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-Z:\Github\PizzaFever\PizzaFever\Assets\Scripts\Controller\PlayerController.cs(160,15): warning CS0649: Field 'PlayerController.a' is never assigned to, and will always have its default value null [C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-Z:\Github\PizzaFever\PizzaFever\Assets\Scripts\Utility\AutoDestructor.cs(14,42): warning CS0649: Field 'AutoDestructor.typeDestroy' is never assigned to, and will always have its default value [C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-Z:\Github\PizzaFever\PizzaFever\Assets\Scripts\Utility\RotateObject.cs(8,36): warning CS0649: Field 'RotateObject.angle' is never assigned to, and will always have its default value 0 [C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-Z:\Github\PizzaFever\PizzaFever\Assets\Scripts\Utility\RotateObject.cs(7,36): warning CS0649: Field 'RotateObject.duration' is never assigned to, and will always have its default value 0 [C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-Z:\Github\PizzaFever\PizzaFever\Assets\Scripts\Controller\PlayerController.cs(10,35): warning CS0649: Field 'PlayerController.rotationSpeed' is never assigned to, and will always have its default value 0 [C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  CompilerServer: server - server processed compilation - 764630a2-260f-491a-acb3-dbcceb18aab2
+D:\GitHub\PizzaFever2\Assets\Scripts\Utility\AutoDestructor.cs(14,42): warning CS0649: Field 'AutoDestructor.typeDestroy' is never assigned to, and will always have its default value [D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+D:\GitHub\PizzaFever2\Assets\Scripts\Controller\PlayerController.cs(10,35): warning CS0649: Field 'PlayerController.rotationSpeed' is never assigned to, and will always have its default value 0 [D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+D:\GitHub\PizzaFever2\Assets\Scripts\Controller\PlayerController.cs(181,15): warning CS0649: Field 'PlayerController.a' is never assigned to, and will always have its default value null [D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+D:\GitHub\PizzaFever2\Assets\Scripts\Utility\RotateObject.cs(8,36): warning CS0649: Field 'RotateObject.angle' is never assigned to, and will always have its default value 0 [D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+D:\GitHub\PizzaFever2\Assets\Scripts\Controller\TableRegion.cs(13,10): warning CS0649: Field 'TableRegion.startEat' is never assigned to, and will always have its default value false [D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+D:\GitHub\PizzaFever2\Assets\Scripts\Controller\PlayerController.cs(183,28): warning CS0649: Field 'PlayerController.timeReleaseBrick' is never assigned to, and will always have its default value 0 [D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+D:\GitHub\PizzaFever2\Assets\Scripts\Controller\PlayerController.cs(10,28): warning CS0649: Field 'PlayerController.speed' is never assigned to, and will always have its default value 0 [D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+  CompilerServer: server - server processed compilation - 9ed9e803-988b-4cc0-9a03-df656579f398
 
 _CopyFilesMarkedCopyLocal:
-  Copying file from "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\packages\DOTween.1.2.235\lib\net40\DOTween.dll" to "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\DOTween.dll".
-  Copying file from "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.26-luna\lib\net40\Bridge.dll" to "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.dll".
+  Copying file from "D:\luna\4.5.0\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.dll" to "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.dll".
 
-  Copying file from "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.dll" to "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.dll".
-  Copying file from "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.dll" to "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.dll".
-  Copying file from "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.dll" to "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.dll".
-  Copying file from "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.dll" to "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.dll".
+  Copying file from "D:\luna\4.5.0\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.26-luna\lib\net40\Bridge.dll" to "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.dll".
+  Copying file from "D:\luna\4.5.0\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.dll" to "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.dll".
+  Copying file from "D:\luna\4.5.0\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.dll" to "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.dll".
+  Copying file from "D:\luna\4.5.0\pipeline\templates\LunaCompiler\packages\DOTween.1.2.235\lib\net40\DOTween.dll" to "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\DOTween.dll".
 
-  Copying file from "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.dll" to "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.dll".
-  Copying file from "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\packages\com.unity.textmeshpro\3.0.6\TextMeshPro.dll" to "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\TextMeshPro.dll".
+  Copying file from "D:\luna\4.5.0\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.dll" to "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.dll".
 
-  Copying file from "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.dll" to "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.dll".
-  Copying file from "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.dll" to "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.dll".
+  Copying file from "D:\luna\4.5.0\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.dll" to "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.dll".
 
-  Copying file from "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\Vendor\UnityEngine.dll" to "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.dll".
+  Copying file from "D:\luna\4.5.0\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.dll" to "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.dll".
 
-  Copying file from "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\packages\com.unity.ui\1.2.1\UnityEngine.UI.dll" to "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UI.dll".
+  Copying file from "D:\luna\4.5.0\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.dll" to "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.dll".
 
-  Copying file from "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\packages\com.unity.urp\7.6\UnityEngine.UniversalRenderPipeline.dll" to "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UniversalRenderPipeline.dll".
+  Copying file from "D:\luna\4.5.0\pipeline\templates\LunaCompiler\packages\com.unity.textmeshpro\3.0.6\TextMeshPro.dll" to "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\TextMeshPro.dll".
 
-  Copying file from "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.26-luna\lib\net40\Bridge.xml" to "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.xml".
+  Copying file from "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\Vendor\UnityEngine.dll" to "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.dll".
 
-  Copying file from "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.xml" to "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.xml".
+  Copying file from "D:\luna\4.5.0\pipeline\templates\LunaCompiler\packages\com.unity.ui\1.2.1\UnityEngine.UI.dll" to "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UI.dll".
 
-  Copying file from "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.xml" to "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.xml".
+  Copying file from "D:\luna\4.5.0\pipeline\templates\LunaCompiler\packages\com.unity.urp\7.6\UnityEngine.UniversalRenderPipeline.dll" to "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UniversalRenderPipeline.dll".
 
-  Copying file from "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.xml" to "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.xml".
+  Copying file from "D:\luna\4.5.0\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.26-luna\lib\net40\Bridge.xml" to "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.xml".
 
-  Copying file from "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.xml" to "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.xml".
+  Copying file from "D:\luna\4.5.0\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.xml" to "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.xml".
 
-  Copying file from "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.xml" to "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.xml".
+  Copying file from "D:\luna\4.5.0\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.xml" to "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.xml".
 
-  Copying file from "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.xml" to "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.xml".
+  Copying file from "D:\luna\4.5.0\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.xml" to "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.xml".
 
-  Copying file from "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.xml" to "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.xml".
+  Copying file from "D:\luna\4.5.0\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.xml" to "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.xml".
 
-  Creating "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.CopyComplete" because "AlwaysCreate" was specified.
+  Copying file from "D:\luna\4.5.0\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.xml" to "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.xml".
+
+  Copying file from "D:\luna\4.5.0\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.xml" to "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.xml".
+
+  Copying file from "D:\luna\4.5.0\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.xml" to "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.xml".
+
+  Creating "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.CopyComplete" because "AlwaysCreate" was specified.
 
 CopyFilesToOutputDirectory:
-  Copying file from "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\obj\Debug\UnityScriptsCompiler.dll" to "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.dll".
+  Copying file from "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\obj\Debug\UnityScriptsCompiler.dll" to "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.dll".
 
-  Scripts -> C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.dll
+  Scripts -> D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.dll
 
-  Copying file from "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\obj\Debug\UnityScriptsCompiler.pdb" to "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.pdb".
+  Copying file from "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\obj\Debug\UnityScriptsCompiler.pdb" to "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.pdb".
 
 BridgeNetCompilerTask:
   Bridge started
 
       To enable detailed logging, configure "logging" in bridge.json.
+
       https://github.com/bridgedotnet/Bridge/wiki/global-configuration#logging
 
   Bridge done
 
-Done Building Project "C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" (Rebuild target(s)).
-
+Done Building Project "D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" (Rebuild target(s)).
 
 
 Build succeeded.
 
 
+"D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" (Rebuild target) (1) ->
 
-"C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" (Rebuild target) (1) ->
 (CoreCompile target) -> 
-  Z:\Github\PizzaFever\PizzaFever\Assets\Scripts\Controller\PlayerController.cs(162,28): warning CS0649: Field 'PlayerController.timeReleaseBrick' is never assigned to, and will always have its default value 0 [C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  Z:\Github\PizzaFever\PizzaFever\Assets\Scripts\Controller\PlayerController.cs(10,28): warning CS0649: Field 'PlayerController.speed' is never assigned to, and will always have its default value 0 [C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  D:\GitHub\PizzaFever2\Assets\Scripts\Utility\RotateObject.cs(7,36): warning CS0649: Field 'RotateObject.duration' is never assigned to, and will always have its default value 0 [D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  D:\GitHub\PizzaFever2\Assets\Scripts\Utility\AutoDestructor.cs(14,42): warning CS0649: Field 'AutoDestructor.typeDestroy' is never assigned to, and will always have its default value [D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  D:\GitHub\PizzaFever2\Assets\Scripts\Controller\PlayerController.cs(10,35): warning CS0649: Field 'PlayerController.rotationSpeed' is never assigned to, and will always have its default value 0 [D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  D:\GitHub\PizzaFever2\Assets\Scripts\Controller\PlayerController.cs(181,15): warning CS0649: Field 'PlayerController.a' is never assigned to, and will always have its default value null [D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  D:\GitHub\PizzaFever2\Assets\Scripts\Utility\RotateObject.cs(8,36): warning CS0649: Field 'RotateObject.angle' is never assigned to, and will always have its default value 0 [D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  D:\GitHub\PizzaFever2\Assets\Scripts\Controller\TableRegion.cs(13,10): warning CS0649: Field 'TableRegion.startEat' is never assigned to, and will always have its default value false [D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  D:\GitHub\PizzaFever2\Assets\Scripts\Controller\PlayerController.cs(183,28): warning CS0649: Field 'PlayerController.timeReleaseBrick' is never assigned to, and will always have its default value 0 [D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  D:\GitHub\PizzaFever2\Assets\Scripts\Controller\PlayerController.cs(10,28): warning CS0649: Field 'PlayerController.speed' is never assigned to, and will always have its default value 0 [D:\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
-  Z:\Github\PizzaFever\PizzaFever\Assets\Scripts\Controller\PlayerController.cs(160,15): warning CS0649: Field 'PlayerController.a' is never assigned to, and will always have its default value null [C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  Z:\Github\PizzaFever\PizzaFever\Assets\Scripts\Utility\AutoDestructor.cs(14,42): warning CS0649: Field 'AutoDestructor.typeDestroy' is never assigned to, and will always have its default value [C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  Z:\Github\PizzaFever\PizzaFever\Assets\Scripts\Utility\RotateObject.cs(8,36): warning CS0649: Field 'RotateObject.angle' is never assigned to, and will always have its default value 0 [C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  Z:\Github\PizzaFever\PizzaFever\Assets\Scripts\Utility\RotateObject.cs(7,36): warning CS0649: Field 'RotateObject.duration' is never assigned to, and will always have its default value 0 [C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  Z:\Github\PizzaFever\PizzaFever\Assets\Scripts\Controller\PlayerController.cs(10,35): warning CS0649: Field 'PlayerController.rotationSpeed' is never assigned to, and will always have its default value 0 [C:\Users\Admin\Desktop\luna\4.5.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-    7 Warning(s)
+    8 Warning(s)
     0 Error(s)
 
 
-Time Elapsed 00:00:15.81
+Time Elapsed 00:00:10.83
 
 Source code compiled successfully!
 Diagnostics gathered successfully
-report@code:build 22196.79
-report@diagnostics:verify 0.57
-report@diagnostics:upload 2225.76
-report@code:stage 9563.83
+report@code:build 16179.20
+report@diagnostics:verify 0.62
+report@diagnostics:upload 3176.27
+report@code:stage 8726.20
 [ Stage3 ] Code compiled and bundled successfully.
-report@code:bundle 35572.51
-report@package:stage 2593.54
+report@code:bundle 28679.57
+report@package:stage 1947.23
 [ Stage4 ] Target platform: develop
 [ Stage4 ] Package bundled successfully
-report@assets:stats 0.16
+report@assets:stats 0.44
